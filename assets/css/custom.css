@@ -1,0 +1,24 @@
+/* Font */
+@font-face {
+    font-family: 'Zain';
+    src: url('/fonts/Zain/Zain-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  h1, h2, h3, h4 {
+    font-family: 'Zain', sans-serif;
+    font-size: 100px;
+  }
+
+  body {
+    font-family: 'Zain', sans-serif;
+
+    /* Gradient Background */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    /* Text Color */
+    color: rgb(0, 0, 0); /* Ensure text is readable */
+  }
+  

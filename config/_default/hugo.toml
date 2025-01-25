@@ -1,0 +1,5 @@
+baseURL = 'https://jto.dev/'
+languageCode = 'en-us'
+title = 'Johnny To'
+[params]
+  subtitle = 'Dive into my space'
