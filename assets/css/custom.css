@@ -1,82 +1,21 @@
-/* Font Faces */
-@font-face {
-    font-family: 'Zain';
-    src: url('/fonts/Zain/Zain-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal; /* Black */
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Zain';
-    src: url('/fonts/Zain/Zain-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal; /* Bold */
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Zain';
-    src: url('/fonts/Zain/Zain-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal; /* Extra Bold */
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Zain';
-    src: url('/fonts/Zain/Zain-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal; /* Regular */
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Zain';
-    src: url('/fonts/Zain/Zain-Italic.ttf') format('truetype');
-    font-weight: 400;
-    font-style: italic; /* Italic */
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Zain';
-    src: url('/fonts/Zain/Zain-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal; /* Light */
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Zain';
-    src: url('/fonts/Zain/Zain-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic; /* Light Italic*/
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Zain';
-    src: url('/fonts/Zain/Zain-ExtraLight.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal; /* Extra Light */
-    font-display: swap;
-}
-
-h1, h2, h3, h4 {
-    font-family: 'Zain', sans-serif;
-    font-weight: 400;
-    font-size: 100px;
-}
+@import "fonts.css";
 
 body {
+    /* Font */
     font-family: 'Zain', sans-serif;
-
+    
     /* Gradient Background */
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 
     /* Text Color */
-    color: rgb(0, 0, 0); /* Ensure text is readable */
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1.5px black; /* Black border */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
 }
-  
+
+h1, h2, h3, h4 {
+    font-family: 'Zain', sans-serif;
+    font-weight: 400;
+    font-size: 8rem;
+}
