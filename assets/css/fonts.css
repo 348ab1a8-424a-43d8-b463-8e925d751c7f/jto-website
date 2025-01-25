@@ -1,4 +1,4 @@
-/* Font Faces */
+/* Zain from Google Fonts */
 @font-face {
     font-family: 'Zain';
     src: url('/fonts/Zain/Zain-Black.ttf') format('truetype');
@@ -62,3 +62,11 @@
     font-style: normal; /* Extra Light */
     font-display: swap;
 }
+
+/* Bootstrap Icons */
+@font-face {
+    font-family: "Bootstrap Icons";
+    src: url("../fonts/bootstrap-icons.woff2") format("woff2"),
+         url("../fonts/bootstrap-icons.woff") format("woff");
+  }
+  
