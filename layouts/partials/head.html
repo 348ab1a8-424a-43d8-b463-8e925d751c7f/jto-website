@@ -8,6 +8,17 @@
   <!-- Link to minified and fingerprinted CSS -->
   {{ $css := resources.Get "css/custom.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $css.Permalink }}">
+  
+  <!-- Preloading for Performance -->
+  <link rel="preload" href="/fonts/Zain/Zain-Black.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/Zain/Zain-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/Zain/Zain-ExtraBold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/Zain/Zain-ExtraLight.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/Zain/Zain-Italic.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/Zain/Zain-Light.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/Zain/Zain-LightItalic.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/Zain/Zain-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
+    
 </head>
 <body>
