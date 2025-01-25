@@ -36,3 +36,26 @@ h4 {
     font-family: 'Zain', sans-serif;
     font-weight: 400;
 }
+
+.bi {
+    font-family: "Bootstrap Icons" !important;
+    -webkit-text-stroke: none !important;
+    text-shadow: none !important;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Move up */
+  }
+  100% {
+    transform: translateY(0); /* Move back to original position */
+  }
+}
+
+.floating-text {
+  display: inline-block; /* Required for transform to work */
+  animation: float 3s ease-in-out infinite; /* Apply the animation */
+}
