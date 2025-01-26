@@ -37,11 +37,20 @@ h4 {
     font-weight: 400;
 }
 
+.middle-section {
+  text-align: center; /* Center-align the text */
+  font-size: 1.5rem; /* Slightly smaller than the floating text */
+  font-weight: 400; /* Normal font weight */
+  color: #333; /* Neutral color */
+  margin: 2rem 0; /* Add spacing above and below */
+}
+
 /* Bootstrap Priority */
 .bi {
     font-family: "Bootstrap Icons" !important;
     -webkit-text-stroke: none !important;
-    text-shadow: none !important;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* Button Styling */
@@ -74,7 +83,57 @@ h4 {
   }
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes glitch {
+  0% {
+    opacity: 0; /* Start invisible */
+    transform: translateY(0); /* No movement */
+  }
+  20% {
+    opacity: 1; /* Fade in */
+  }
+  30%, 50% {
+    transform: translateY(-2px); /* Minor vertical movement */
+  }
+  60%, 70% {
+    transform: translateX(3px); /* Minor horizontal "glitch" */
+    color: #ff00ff; /* Temporary glitch color */
+  }
+  80% {
+    transform: translateX(-2px); /* Shift opposite direction */
+    color: #00ffff; /* Another glitch color */
+  }
+  100% {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Reset position */
+    color: white; /* Return to original color */
+  }
+}
+
 .floating-text {
   display: inline-block; /* Required for transform to work */
   animation: float 3s ease-in-out infinite; /* Apply the animation */
+}
+
+.decorative-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.decorative-divider::before,
+.decorative-divider::after {
+  content: "";
+  flex: 1;
+  border-top: 2px solid #ffffff; /* Divider color */
+  margin: 0 1rem;
 }
