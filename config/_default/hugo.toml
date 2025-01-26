@@ -4,3 +4,8 @@ title = 'Johnny To'
 
 [params]
   subtitle = 'Dive into my space'
+
+[[menu.main]]
+  name = "Resume"
+  url = "/resume/"
+  weight = 2

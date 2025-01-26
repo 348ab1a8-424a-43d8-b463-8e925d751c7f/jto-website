@@ -10,6 +10,11 @@
       transform: translateY(0); /* Move back to original position */
     }
 }
+
+.floating-text {
+  display: inline-block; /* Required for transform to work */
+  animation: float 3s ease-in-out infinite; /* Apply the animation */
+}
   
 @keyframes fadeIn {
     from {
@@ -20,7 +25,6 @@
     }
 }
 
-.floating-text {
-    display: inline-block; /* Required for transform to work */
-    animation: float 3s ease-in-out infinite; /* Apply the animation */
+.fade-in {
+  animation: fadeIn 3s ease-in-out; /* Fade-in animation */
 }

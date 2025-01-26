@@ -13,8 +13,6 @@ body {
     color: rgb(255, 255, 255);
     /*-webkit-text-stroke: 1px rgb(167, 167, 167); /* Black border */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
-
-    animation: fadeIn 3s ease-in-out; /* Fade-in animation */
 }
 
 h1 {
