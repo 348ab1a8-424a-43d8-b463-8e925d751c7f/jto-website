@@ -13,6 +13,10 @@
 .btn {
   font-family: 'Zain', sans-serif !important;
   font-weight: 900;
+  display: inline-flex; /* Use Flexbox */
+  align-items: center; /* Vertically center icon and text */
+  justify-content: center; /* Center content horizontally if needed */
+  gap: 0.5rem; /* Add space between the icon and text */
 }
 
 .button-container {
