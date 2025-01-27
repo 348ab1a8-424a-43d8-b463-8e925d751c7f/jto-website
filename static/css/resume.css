@@ -54,12 +54,15 @@ body {
   }
   
   .contact-info a {
-    color: #3498db;
-    text-decoration: none;
+    display: inline-block; /* Ensures transform applies correctly */
+    text-decoration: none; /* Remove underline for better styling */
+    color: inherit; /* Inherit text color */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition */
   }
-  
+
   .contact-info a:hover {
-    text-decoration: underline;
+    transform: scale(1.3); /* Slightly increase size */
+    color: #0056b3; /* Optional: Change text color on hover */
   }
   
   /* SECTION STYLES */
