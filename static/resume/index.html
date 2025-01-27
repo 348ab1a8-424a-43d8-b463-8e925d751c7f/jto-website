@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Johnny To | Resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnny To | Resume</title>
 
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/favicon/site.webmanifest">
-  <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
-  <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
 
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="/css/bootstrap-icons.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="/css/bootstrap-icons.css">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   
-  <!-- Bootstrap JavaScript Bundle (Optional for interactive components) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <!-- Bootstrap JavaScript Bundle (Optional for interactive components) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
 
-  <!-- Link to Custom CSS -->
-  <link rel="stylesheet" href="/css/custom.css?version={{ now.Unix }}">
+    <!-- Link to Custom CSS -->
+    <link rel="stylesheet" href="/css/custom.css?version={{ now.Unix }}">
 
-  <!-- Link to Resume CSS -->
-  <link rel="stylesheet" href="/css/resume.css">
+    <!-- Link to Resume CSS -->
+    <link rel="stylesheet" href="/css/resume.css">
   
-  <!-- Preloading for Performance -->
-  <link rel="preload" href="/fonts/Zain/Zain-Black.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-  <link rel="preload" href="/fonts/Zain/Zain-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-  <link rel="preload" href="/fonts/Zain/Zain-ExtraBold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-  <link rel="preload" href="/fonts/Zain/Zain-ExtraLight.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-  <link rel="preload" href="/fonts/Zain/Zain-Italic.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-  <link rel="preload" href="/fonts/Zain/Zain-Light.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-  <link rel="preload" href="/fonts/Zain/Zain-LightItalic.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-  <link rel="preload" href="/fonts/Zain/Zain-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-
+    <!-- Preloading for Performance -->
+    <link rel="preload" href="/fonts/Zain/Zain-Black.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="/fonts/Zain/Zain-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="/fonts/Zain/Zain-ExtraBold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="/fonts/Zain/Zain-ExtraLight.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="/fonts/Zain/Zain-Italic.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="/fonts/Zain/Zain-Light.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="/fonts/Zain/Zain-LightItalic.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="/fonts/Zain/Zain-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 </head>
 
 <body class="fade-in">
     <header>
 
     </header>
+
+    <!-- Side Button: Return to homepage -->
+    <a href="/" class="side-button" title="Go to homepage.">
+        <i class="bi bi-house-fill"></i>
+    </a>
 
     <main>
         <div class="container">
@@ -56,7 +60,7 @@
                         class="btn btn-outline text-white" 
                         style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: 2rem;"
                     >
-                    <i class="bi bi-envelope-fill"></i>
+                    <i class="bi bi-envelope-fill" title="Click to send me and email."></i>
                     </a>
                 </div>
 
@@ -104,16 +108,34 @@
                     </a>
                 </div>
             </div>
+
+            <div class="section">
+                <h2>
+                    <i class="bi bi-file-earmark-pdf-fill"></i>
+                    Download a PDF copy of this resume
+                </h2>
+                <a href="resume.pdf" target="_blank" class="resume-link">
+                    <i class="bi-download" style="font-size: 3rem"></i>
+                </a>
+              </div>
           
             <div class="section">
-              <h2>Professional Summary</h2>
-              <p class="timeline-item">Associate Engineer with a Bachelor of Science in Computer Science and over four years of experience at IPG Photonics. 
-                Proven expertise in system upgrades, R&D support, and operational efficiency, with a focus on process optimization. 
-                Experienced in troubleshooting, optimizing system reliability, and collaborating with cross-functional teams.</p>
+                <h2>
+                    <i class="bi-person-lines-fill" style="color: white"></i>
+                    Professional Summary
+                </h2>
+                <p class="timeline-item">
+                    Associate Engineer with a Bachelor of Science in Computer Science and over four years of experience at IPG Photonics. 
+                    Proven expertise in system upgrades, R&D support, and operational efficiency, with a focus on process optimization. 
+                    Experienced in troubleshooting, optimizing system reliability, and collaborating with cross-functional teams.
+                </p>
             </div>
 
             <div class="section">
-                <h2>Education</h2>
+                <h2>
+                    <i class="bi bi-mortarboard-fill"></i>
+                    Education
+                </h2>
                 <h3 class="timeline-item">
                     <span style="float: left">Bachelor of Science (B.S.), Computer Science</span>
                     <span style="float: right">September 2015 - May 2019</span><br>
@@ -122,24 +144,24 @@
                     </span>
                     <span style="float: right">Worcester, Massachusetts</span><br>
                 </h3>
-              </div>
+            </div>
           
             <div class="section">
-              <h2>Work Experience</h2>
-              <div class="timeline">
-
-                <div class="timeline-item">
-                    <h3>
-                        <span style="float: left">Associate Engineer</span>
-                        <span style="float: right">June 2021 - Present</span><br>
-                        <span style="float: left">
-                            <a href="https://www.ipgphotonics.com/" target="_blank">IPG Photonics</a>
-                        </span>
-                        <span style="float: right">Oxford, Massachusetts</span>
-                    </h3>
-                    
-                    <br>
-                    
+                <h2>
+                    <i class="bi bi-briefcase-fill"></i>
+                    Work Experience
+                </h2>
+                <div class="timeline">
+                    <div class="timeline-item current-role">
+                        <h3>
+                            <span style="float: left">Associate Engineer</span>
+                            <span style="float: right">June 2021 - Present</span><br>
+                            <span style="float: left">
+                                <a href="https://www.ipgphotonics.com/" target="_blank">IPG Photonics</a>
+                            </span>
+                            <span style="float: right">Oxford, Massachusetts</span>
+                        </h3>
+                        <br>
                     <p>
                         • Led the overhaul and upgrade of component assembly systems, completing the project four months ahead of schedule. Improved system efficiency and reliability.<br>
                         • Tested new software builds, providing feedback to enhance software performance and user experience.<br>
@@ -150,7 +172,7 @@
                     </p>
                 </div>
 
-                <div class="timeline-item">
+                <div class="timeline-item past-role">
                     <h3>
                         <span style="float: left">Equipment Maintenance Technician</span>
                         <span style="float: right">June 2020 - June 2021</span><br>
@@ -159,9 +181,7 @@
                         </span>
                         <span style="float: right">Oxford, Massachusetts</span>
                     </h3>
-                    
                     <br>
-                    
                     <p>
                         • Performed calibrations, inspections, and component testing to ensure equipment reliability.<br>
                         • Assisted Engineers with temporary assignments, following technical guidance.<br>
@@ -170,7 +190,7 @@
                     </p>
                 </div>
 
-                <div class="timeline-item">
+                <div class="timeline-item past-role">
                     <h3>
                         <span style="float: left">Technical Assembler</span>
                         <span style="float: right">June 2020 - June 2020</span><br>
@@ -179,9 +199,7 @@
                         </span>
                         <span style="float: right">Oxford, Massachusetts</span>
                     </h3>
-                    
                     <br>
-                    
                     <p>
                         • Assembled R&D components for a new product and helped refine production and assembly techniques during the early development stages.<br>
                     </p>
@@ -196,15 +214,13 @@
                         </span>
                         <span style="float: right"></span>
                     </h3>
-                    
                     <br>
-                    
                     <p>
                         • Enhanced software development skills through online courses and open-source resources while actively pursuing career opportunities.<br>
                     </p>
                 </div>
 
-                <div class="timeline-item">
+                <div class="timeline-item past-role">
                     <h3>
                         <span style="float: left">Manufacturing Intern</span>
                         <span style="float: right">May 2018 - August 2018</span><br>
@@ -213,16 +229,14 @@
                         </span>
                         <span style="float: right">Oxford, Massachusetts</span>
                     </h3>
-                    
                     <br>
-                    
                     <p>
                         • Stripped, spliced, and cleaned fiber for integration into other components.<br>
                         • Worked with production teams to meet goals and ensure timely workflow.<br>
                     </p>
                 </div>
 
-                <div class="timeline-item">
+                <div class="timeline-item past-role">
                     <h3>
                         <span style="float: left">Manufacturing Intern</span>
                         <span style="float: right">May 2017 - August 2017</span><br>
@@ -231,16 +245,13 @@
                         </span>
                         <span style="float: right">Oxford, Massachusetts</span>
                     </h3>
-                    
                     <br>
-                    
                     <p>
                         • Stripped, spliced, and cleaned fiber for integration into other components.<br>
                         • Worked with production teams to meet goals and ensure timely workflow.<br>
                     </p>
                 </div>
-
-                <div class="timeline-item">
+                <div class="timeline-item past-role">
                     <h3>
                         <span style="float: left">Manufacturing Intern</span>
                         <span style="float: right">May 2016 - August 2016</span><br>
@@ -249,28 +260,29 @@
                         </span>
                         <span style="float: right">Oxford, Massachusetts</span>
                     </h3>
-                    
                     <br>
-                    
                     <p>
                         • Assembled laser diode components with precise alignment for optimal beam strength.<br>
                         • Stripped, spliced, and cleaned fiber for integration into other components.<br>
                         • Worked with production teams to meet goals and ensure timely workflow.<br>
                     </p>
                 </div>
-              </div>
             </div>
-          
+
             <div class="section">
-              <h2>Skills</h2>
-              <div class="skills-list">
-                <div class="skill">JavaScript</div>
-                <div class="skill">React</div>
-                <div class="skill">Node.js</div>
-                <div class="skill">CSS</div>
-                <div class="skill">Python</div>
-              </div>
+                <h2>
+                    <i class="bi bi-tools"></i>
+                    Skills
+                </h2>
+                <div class="skills-list">
+                    <div class="skill">JavaScript</div>
+                    <div class="skill">React</div>
+                    <div class="skill">Node.js</div>
+                    <div class="skill">CSS</div>
+                    <div class="skill">Python</div>
+                </div>
             </div>
-          </div>          
+
+        </div>          
     </main>
 </body>
