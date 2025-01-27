@@ -1,0 +1,130 @@
+/* GENERAL STYLES */
+body {
+    font-family: 'Zain', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.5); /* Transparent white */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  
+  h1, h2, h3 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 5px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #34495e;
+  }
+  
+  /* CONTACT INFO */
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* SECTION STYLES */
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .section li {
+    margin-bottom: 10px;
+  }
+  
+  .section li strong {
+    display: inline-block;
+    width: 120px;
+    color: #2c3e50;
+  }
+  
+  /* WORK EXPERIENCE */
+  .timeline {
+    border-left: 3px solid #e74c3c;
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+  
+  .timeline-item {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #e74c3c;
+    border-radius: 50%;
+    position: absolute;
+    left: -25px;
+    top: 0;
+  }
+  
+  /* SKILLS */
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skill {
+    padding: 5px 10px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    border-radius: 15px;
+    font-size: 0.9rem;
+  }
+  
+  /* FOOTER */
+  .footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #7f8c8d;
+    margin-top: 30px;
+  }
+  
