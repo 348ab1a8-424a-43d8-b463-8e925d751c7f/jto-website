@@ -1,2 +1,15 @@
+# Hugo build output
+public/
+resources/
 
-/public
+# Hugo cache
+.hugo_build.lock
+.cache/
+~/.cache/hugo/
+
+# Editor and IDE files
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
