@@ -26,7 +26,15 @@
 
 ## Overview
 
-Built for personal use.
+Built for personal use and professionally as a digital business card.
+
+## Features
+
+1. Resume Page - Information about my Work Experience.
+2. Portfolio Page - Showcases my projects.
+3. Linkedin Link - Connect with me via Linkedin.
+4. GitHub Link - Check out my GitHub profile.
+5. Quick share QR Code to website.
 
 ## Installation
 
