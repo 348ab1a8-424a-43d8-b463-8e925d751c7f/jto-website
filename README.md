@@ -1,16 +1,15 @@
 <div align="center">
-  <img src="static\favicon\android-chrome-192x192.png"
-  alt="Johnny To" 
-  width="200"
-  style="box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2); border-radius: 12px;">
-  <h1>Johnny's Personal Website</h1>
+  <a href="https://jto.dev">
+    <img src="static/favicon/android-chrome-192x192.png"
+         alt="Johnny To" 
+         width="200"
+         style="box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2); border-radius: 12px;">
+  </a>
+  <a href="https://jto.dev">
+    <h1>Johnny's Personal Website</h1>
+  </a>
+  <p>Built for sharing relevant information about me.</p>
 </div>
-
-<center>
-
-https://jto.dev/
-
-</center>
 
 ## Table of Contents
 
