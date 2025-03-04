@@ -46,11 +46,15 @@ h3 {
   
 /* CONTACT INFO */
 .contact-info {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  font-size: 0.9rem;
-  margin-bottom: 30px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if needed */
+    gap: 30px; /* Adjust spacing between buttons */
+    flex-wrap: wrap; /* Prevents overflowing on small screens */
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+    width: 100%; /* Ensures full width */
+    text-align: center; /* Ensures inline elements inside are centered */
 }
   
 .contact-info a {
@@ -144,5 +148,5 @@ h3 {
 }
 
 .past-role {
-  border-left: 5px solid #28a745; /* Green highlight bar */
+  border-left: 5px solid #495057; /* Grey highlight bar */
 }

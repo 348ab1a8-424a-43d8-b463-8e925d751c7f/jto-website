@@ -15,6 +15,7 @@
   display: inline-block; /* Required for transform to work */
   animation: float 3s ease-in-out infinite; /* Apply the animation */
 }
+
   
 @keyframes fadeIn {
     from {
