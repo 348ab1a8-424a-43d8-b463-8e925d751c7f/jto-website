@@ -21,7 +21,7 @@
 	- [Linux Environment](#linux-environment)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+- [Copyright](#copyright)
 - [Contact](#contact)
 
 ## Overview
@@ -82,9 +82,9 @@ If you are working on a computer using Linux OS, follow instructions below.
 
 No other individual besides myself (Johnny To) will have the ability to contribute to this project.
 
-## License
+## Copyright
 
-For complete license details, please see the [License.txt](License.txt) file.
+For complete copyright details, please see the [COPYRIGHT.txt](COPYRIGHT.txt) file.
 
 ## Contact
 
