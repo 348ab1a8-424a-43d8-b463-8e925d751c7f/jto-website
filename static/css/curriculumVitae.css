@@ -1,152 +1,133 @@
-/* GENERAL STYLES */
+/* MOBILE FIRST BASE STYLES */
+
+/* Disabled on Mobile */
+
+@media (max-width: 767px) {
+    .btn:hover {
+        transform: none;
+    }
+}
+
+/* Enabled Mobile Features */
 body {
-  font-family: 'Zain', sans-serif;
-  color: #333;
-  background-color: #f8f9fa;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
+    font-family: 'Zain', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    background: #fff;
+    margin: 0;
+    padding: 0;
 }
-  
+
 .container {
-  max-width: 800px;
-  margin: 20px auto;
-  background: rgba(255, 255, 255, 0.5); /* Transparent white */
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+    padding: 1rem;
 }
-  
-  
-h1, h2, h3 {
-  margin-top: 0;
-  color: #2c3e50;
+
+.cv-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
-  
-h1 {
-  font-size: 2rem;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
-}
-  
-h2 {
-  font-size: 1.5rem;
-  margin-top: 30px;
-  border-bottom: 2px solid #e74c3c;
-  padding-bottom: 5px;
-  }
-  
-h3 {
-  font-size: 1.2rem;
-  margin-top: 20px;
-  color: #34495e;
-}
-  
-/* CONTACT INFO */
+
+/* Contact Section */
 .contact-info {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically if needed */
-    gap: 30px; /* Adjust spacing between buttons */
-    flex-wrap: wrap; /* Prevents overflowing on small screens */
-    font-size: 0.9rem;
-    margin-bottom: 30px;
-    width: 100%; /* Ensures full width */
-    text-align: center; /* Ensures inline elements inside are centered */
-}
-  
-.contact-info a {
-  display: inline-block; /* Ensures transform applies correctly */
-  text-decoration: none; /* Remove underline for better styling */
-  color: inherit; /* Inherit text color */
-  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition */
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
 }
 
-.contact-info a:hover {
-  transform: scale(1.3); /* Slightly increase size */
-  color: #0056b3; /* Optional: Change text color on hover */
+.contact-btn {
+    padding: 0.5rem;
+    font-size: 1.5rem;
 }
-  
-/* SECTION STYLES */
-.section {
-  margin-bottom: 20px;
+
+/* Section Titles */
+.section-title {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
-  
-.section ul {
-  list-style-type: none;
-  padding: 0;
-}
-  
-.section li {
-  margin-bottom: 10px;
-}
-  
-.section li strong {
-  display: inline-block;
-  width: 120px;
-  color: #2c3e50;
-}
-  
-/* WORK EXPERIENCE */
-.timeline {
-  display: flex;
-  flex-direction: column; /* Stack items vertically */
-  gap: 20px; /* Space between items */
-}
-  
+
+/* Timeline Items */
 .timeline-item {
-  background: #ffffff;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  text-align: left;
-  cursor: pointer;
+    margin-bottom: 1.5rem;
 }
 
-.timeline-item:hover {
-  transform: scale(1.5); /* Scale up */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow */
+.timeline-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
 }
-  
-/* SKILLS */
+
+.timeline-row {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-left,
+.timeline-right {
+    display: block;
+}
+
+.timeline-description {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* Skills List */
 .skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    font-size: 1.25rem;
 }
 
 .skill {
-  padding: 5px 10px;
-  background: #ecf0f1;
-  color: #2c3e50;
-  border-radius: 15px;
-  font-size: 0.9rem;
-}
-  
-/* FOOTER */
-.footer {
-  text-align: center;
-  font-size: 0.8rem;
-  color: #7f8c8d;
-  margin-top: 30px;
-}
-  
-.career-break {
-  background: linear-gradient(135deg, #f7cac9, #f4d03f); /* Gradient background */
-  border: 2px dashed #d35400; /* Dashed border for distinction */
-  padding: 20px;
-  border-radius: 10px;
-  color: #333;
+    background: #f0f0f0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
 }
 
-.current-role {
-  border-left: 5px solid #28a745; /* Green highlight bar */
-}
+/* LARGER DEVICES */
+@media (min-width: 768px) {
+    .cv-title {
+        font-size: 6rem;
+    }
 
-.past-role {
-  border-left: 5px solid #495057; /* Grey highlight bar */
+    .contact-info {
+        font-size: 2rem;
+    }
+
+    .contact-btn {
+        padding: 0.75rem;
+        font-size: 2rem;
+    }
+
+    .section-title {
+        font-size: 3rem;
+    }
+
+    .timeline-title {
+        font-size: 2rem;
+    }
+
+    .timeline-row {
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.5rem;
+    }
+
+    .timeline-description {
+        font-size: 1.25rem;
+    }
+
+    .skills-list {
+        font-size: 1.5rem;
+    }
 }

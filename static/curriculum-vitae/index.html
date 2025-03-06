@@ -18,17 +18,17 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  
-    <!-- Bootstrap JavaScript Bundle (Optional for interactive components) -->
+
+    <!-- Bootstrap JavaScript Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
 
     <!-- Link to Custom CSS -->
     <link rel="stylesheet" href="/css/custom.css?version={{ now.Unix }}">
 
-    <!-- Link to Resume CSS -->
+    <!-- Curriculum Vitae CSS -->
     <link rel="stylesheet" href="/css/curriculumVitae.css">
-  
-    <!-- Preloading for Performance -->
+
+    <!-- Preload Fonts -->
     <link rel="preload" href="/fonts/Zain/Zain-Black.ttf" as="font" type="font/ttf" crossorigin="anonymous">
     <link rel="preload" href="/fonts/Zain/Zain-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
     <link rel="preload" href="/fonts/Zain/Zain-ExtraBold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
@@ -40,10 +40,6 @@
 </head>
 
 <body class="fade-in">
-    <header>
-
-    </header>
-
     <!-- Side Button: Return to homepage -->
     <a href="/" class="side-button" title="Go to homepage.">
         <i class="bi bi-house-fill"></i>
@@ -51,219 +47,211 @@
 
     <main>
         <div class="container">
-            <h1 style="font-size: 6rem">Johnny To</h1>
+            <h1 class="cv-title">Johnny To</h1>
 
-            <div class="contact-info" style="font-size: 2rem">
-                <div>
-                    <a 
-                        href="mailto:jto@amplivum.com"
-                        class="btn btn-outline text-white" 
-                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: 2rem;"
-                    >
-                    <i class="bi bi-envelope-fill" title="Click to send me and email."></i>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <a href="mailto:jto@amplivum.com" class="btn btn-outline contact-btn">
+                        <i class="bi bi-envelope-fill" title="Click to send me an email."></i>
                     </a>
                 </div>
-
-                <div>
-                    <a 
-                    href="sms:+15083733116" 
-                    target="_blank" 
-                    class="btn btn-outline text-white"
-                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: 2rem;"
-                    >
-                    <i class="bi bi-chat-dots-fill"></i>
+                <div class="contact-item">
+                    <a href="sms:+15083733116" target="_blank" class="btn btn-outline contact-btn">
+                        <i class="bi bi-chat-dots-fill"></i>
                     </a>
                 </div>
-
-                <div>
-                    <a 
-                    href="tel:+15083733116" 
-                    target="_blank" 
-                    class="btn btn-outline text-white"
-                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: 2rem;"
-                    >
-                    <i class="bi bi-telephone-fill"></i>
+                <div class="contact-item">
+                    <a href="tel:+15083733116" target="_blank" class="btn btn-outline contact-btn">
+                        <i class="bi bi-telephone-fill"></i>
                     </a>
                 </div>
             </div>
 
-            <div class="section">
-                <h2>
-                    <i class="bi bi-mortarboard-fill"></i>
-                    Education
+            <!-- Education Section -->
+            <section class="section education-section">
+                <h2 class="section-title">
+                    <i class="bi bi-mortarboard-fill"></i> Education
                 </h2>
-                <h3 class="timeline-item">
-                    <span style="float: left">Bachelor of Science (B.S.), Computer Science</span>
-                    <span style="float: right">September 2015 - May 2019</span><br>
-                    <span style="float: left">
-                        <a href="https://www.worcester.edu/" target="_blank">Worcester State University</a>
-                    </span>
-                    <span style="float: right">Worcester, Massachusetts</span><br>
-                </h3>
-            </div>
-          
-            <div class="section">
-                <h2>
-                    <i class="bi bi-briefcase-fill"></i>
-                    Work Experience
+                <div class="timeline-item">
+                    <div class="timeline-row">
+                        <span class="timeline-left">Bachelor of Science (B.S.), Computer Science</span>
+                        <span class="timeline-right">September 2015 - May 2019</span>
+                    </div>
+                    <div class="timeline-row">
+                        <span class="timeline-left">
+                            <a href="https://www.worcester.edu/" target="_blank">Worcester State University</a>
+                        </span>
+                        <span class="timeline-right">Worcester, Massachusetts</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Work Experience Section -->
+            <section class="section work-section">
+                <h2 class="section-title">
+                    <i class="bi bi-briefcase-fill"></i> Work Experience
                 </h2>
                 <div class="timeline">
+                    <!-- Current Role -->
                     <div class="timeline-item current-role">
-                        <h3>
-                            <span style="float: left">Associate Engineer</span>
-                            <span style="float: right">June 2021 - Present</span><br>
-                            <span style="float: left">
+                        <h3 class="timeline-title">
+                            <span class="timeline-left">Associate Engineer</span>
+                            <span class="timeline-right">June 2021 - Present</span>
+                        </h3>
+                        <div class="timeline-row">
+                            <span class="timeline-left">
                                 <a href="https://www.ipgphotonics.com/" target="_blank">IPG Photonics</a>
                             </span>
-                            <span style="float: right">Oxford, Massachusetts</span>
+                            <span class="timeline-right">Oxford, Massachusetts</span>
+                        </div>
+                        <p class="timeline-description">
+                            • Developed C#/.NET console application to automate version backups and rollbacks for production stations, enabling quick reverts to previous builds and reducing downtime.<br>
+                            • Tested new software builds, providing feedback to enhance software performance and user experience.<br>
+                            • Collaborated with the Laser Scientist on R&D projects, assisting with calibrations and system conversions, accelerating project completion.<br>
+                            • Supported station performance optimization, improving system efficiency and output.<br>
+                            • Conducted experiments and case studies to reduce resource waste, enhance product quality, and analyze material interactions through UV curing processes.<br>
+                            • Traveled to provide critical support at IPG Photonics during a crisis, resolving project timeline issues in 2 weeks instead of the planned 4 weeks.<br>
+                        </p>
+                    </div>
+
+                    <!-- Past Roles -->
+                    <div class="timeline-item past-role">
+                        <h3 class="timeline-title">
+                            <span class="timeline-left">Equipment Maintenance Technician</span>
+                            <span class="timeline-right">June 2020 - June 2021</span>
                         </h3>
-                        <br>
-                    <p>
-                        • Developed C#/.NET console application to automate version backups and rollbacks for production stations, enabling quick reverts to previous builds and reducing downtime.<br>
-                        • Tested new software builds, providing feedback to enhance software performance and user experience.<br>
-                        • Collaborated with the Laser Scientist on R&D projects, assisting with calibrations and system conversions, accelerating project completion.<br>
-                        • Supported station performance optimization, improving system efficiency and output.<br>
-                        • Conducted experiments and case studies to reduce resource waste, enhance product quality, and analyze material interactions through UV curing processes.<br>
-                        • Traveled to provide critical support at IPG Photonics (Malborough, MA) during a crisis, resolving project timeline issues in 2 weeks instead of the planned 4 weeks, ensuring workflow continuity.<br>
-                    </p>
-                </div>
+                        <div class="timeline-row">
+                            <span class="timeline-left">
+                                <a href="https://www.ipgphotonics.com/" target="_blank">IPG Photonics</a>
+                            </span>
+                            <span class="timeline-right">Oxford, Massachusetts</span>
+                        </div>
+                        <p class="timeline-description">
+                            • Performed calibrations, inspections, and component testing to ensure equipment reliability.<br>
+                            • Assisted Engineers with temporary assignments, following technical guidance.<br>
+                            • Maintained detailed documentation of maintenance activities for accurate tracking and process efficiency.<br>
+                            • Improved inter-shift communication, enhancing workflow and team coordination.<br>
+                        </p>
+                    </div>
 
-                <div class="timeline-item past-role">
-                    <h3>
-                        <span style="float: left">Equipment Maintenance Technician</span>
-                        <span style="float: right">June 2020 - June 2021</span><br>
-                        <span style="float: left">
-                            <a href="https://www.ipgphotonics.com/" target="_blank">IPG Photonics</a>
-                        </span>
-                        <span style="float: right">Oxford, Massachusetts</span>
-                    </h3>
-                    <br>
-                    <p>
-                        • Performed calibrations, inspections, and component testing to ensure equipment reliability.<br>
-                        • Assisted Engineers with temporary assignments, following technical guidance.<br>
-                        • Maintained detailed documentation of maintenance activities for accurate tracking and process efficiency.<br>
-                        • Improved inter-shift communication, enhancing workflow and team coordination.<br>
-                    </p>
-                </div>
+                    <div class="timeline-item past-role">
+                        <h3 class="timeline-title">
+                            <span class="timeline-left">Technical Assembler</span>
+                            <span class="timeline-right">June 2020 - June 2020</span>
+                        </h3>
+                        <div class="timeline-row">
+                            <span class="timeline-left">
+                                <a href="https://www.ipgphotonics.com/" target="_blank">IPG Photonics</a>
+                            </span>
+                            <span class="timeline-right">Oxford, Massachusetts</span>
+                        </div>
+                        <p class="timeline-description">
+                            • Assembled R&D components for a new product and helped refine production and assembly techniques.<br>
+                        </p>
+                    </div>
 
-                <div class="timeline-item past-role">
-                    <h3>
-                        <span style="float: left">Technical Assembler</span>
-                        <span style="float: right">June 2020 - June 2020</span><br>
-                        <span style="float: left">
-                            <a href="https://www.ipgphotonics.com/" target="_blank">IPG Photonics</a>
-                        </span>
-                        <span style="float: right">Oxford, Massachusetts</span>
-                    </h3>
-                    <br>
-                    <p>
-                        • Assembled R&D components for a new product and helped refine production and assembly techniques during the early development stages.<br>
-                    </p>
-                </div>
+                    <div class="timeline-item career-break">
+                        <h3 class="timeline-title">
+                            <span class="timeline-left">Career Break</span>
+                            <span class="timeline-right">May 2019 - June 2020</span>
+                        </h3>
+                        <p class="timeline-description">
+                            • Enhanced software development skills through online courses and open-source resources while actively pursuing career opportunities.<br>
+                        </p>
+                    </div>
 
-                <div class="timeline-item career-break">
-                    <h3>
-                        <span style="float: left">Career Break</span>
-                        <span style="float: right">May 2019 - June 2020</span><br>
-                        <span style="float: left">
-                            <a href="" target="_blank"></a>
-                        </span>
-                        <span style="float: right"></span>
-                    </h3>
-                    <br>
-                    <p>
-                        • Enhanced software development skills through online courses and open-source resources while actively pursuing career opportunities.<br>
-                    </p>
-                </div>
+                    <div class="timeline-item past-role">
+                        <h3 class="timeline-title">
+                            <span class="timeline-left">Manufacturing Intern</span>
+                            <span class="timeline-right">May 2018 - August 2018</span>
+                        </h3>
+                        <div class="timeline-row">
+                            <span class="timeline-left">
+                                <a href="https://www.ipgphotonics.com/" target="_blank">IPG Photonics</a>
+                            </span>
+                            <span class="timeline-right">Oxford, Massachusetts</span>
+                        </div>
+                        <p class="timeline-description">
+                            • Stripped, spliced, and cleaned fiber for integration into other components.<br>
+                            • Collaborated with production teams to meet goals and ensure timely workflow.<br>
+                        </p>
+                    </div>
 
-                <div class="timeline-item past-role">
-                    <h3>
-                        <span style="float: left">Manufacturing Intern</span>
-                        <span style="float: right">May 2018 - August 2018</span><br>
-                        <span style="float: left">
-                            <a href="https://www.ipgphotonics.com/" target="_blank">IPG Photonics</a>
-                        </span>
-                        <span style="float: right">Oxford, Massachusetts</span>
-                    </h3>
-                    <br>
-                    <p>
-                        • Stripped, spliced, and cleaned fiber for integration into other components.<br>
-                        • Worked with production teams to meet goals and ensure timely workflow.<br>
-                    </p>
-                </div>
+                    <div class="timeline-item past-role">
+                        <h3 class="timeline-title">
+                            <span class="timeline-left">Manufacturing Intern</span>
+                            <span class="timeline-right">May 2017 - August 2017</span>
+                        </h3>
+                        <div class="timeline-row">
+                            <span class="timeline-left">
+                                <a href="https://www.ipgphotonics.com/" target="_blank">IPG Photonics</a>
+                            </span>
+                            <span class="timeline-right">Oxford, Massachusetts</span>
+                        </div>
+                        <p class="timeline-description">
+                            • Stripped, spliced, and cleaned fiber for integration into other components.<br>
+                            • Worked with production teams to meet goals and ensure timely workflow.<br>
+                        </p>
+                    </div>
 
-                <div class="timeline-item past-role">
-                    <h3>
-                        <span style="float: left">Manufacturing Intern</span>
-                        <span style="float: right">May 2017 - August 2017</span><br>
-                        <span style="float: left">
-                            <a href="https://www.ipgphotonics.com/" target="_blank">IPG Photonics</a>
-                        </span>
-                        <span style="float: right">Oxford, Massachusetts</span>
-                    </h3>
-                    <br>
-                    <p>
-                        • Stripped, spliced, and cleaned fiber for integration into other components.<br>
-                        • Worked with production teams to meet goals and ensure timely workflow.<br>
-                    </p>
+                    <div class="timeline-item past-role">
+                        <h3 class="timeline-title">
+                            <span class="timeline-left">Manufacturing Intern</span>
+                            <span class="timeline-right">May 2016 - August 2016</span>
+                        </h3>
+                        <div class="timeline-row">
+                            <span class="timeline-left">
+                                <a href="https://www.ipgphotonics.com/" target="_blank">IPG Photonics</a>
+                            </span>
+                            <span class="timeline-right">Oxford, Massachusetts</span>
+                        </div>
+                        <p class="timeline-description">
+                            • Assembled laser diode components with precise alignment for optimal beam strength.<br>
+                            • Stripped, spliced, and cleaned fiber for integration into other components.<br>
+                            • Collaborated with production teams to meet goals and ensure timely workflow.<br>
+                        </p>
+                    </div>
                 </div>
-                <div class="timeline-item past-role">
-                    <h3>
-                        <span style="float: left">Manufacturing Intern</span>
-                        <span style="float: right">May 2016 - August 2016</span><br>
-                        <span style="float: left">
-                            <a href="https://www.ipgphotonics.com/" target="_blank">IPG Photonics</a>
-                        </span>
-                        <span style="float: right">Oxford, Massachusetts</span>
-                    </h3>
-                    <br>
-                    <p>
-                        • Assembled laser diode components with precise alignment for optimal beam strength.<br>
-                        • Stripped, spliced, and cleaned fiber for integration into other components.<br>
-                        • Worked with production teams to meet goals and ensure timely workflow.<br>
-                    </p>
-                </div>
-            </div>
+            </section>
 
-            <div class="section">
-                <h2>
-                    <i class="bi bi-gear-wide-connected"></i>
-                    Programming Frameworks
+            <!-- Programming Frameworks Section -->
+            <section class="section frameworks-section">
+                <h2 class="section-title">
+                    <i class="bi bi-gear-wide-connected"></i> Programming Frameworks
                 </h2>
-                <div class="skills-list timeline-item">
+                <div class="skills-list">
                     <div class="skill">Ruby on Rails</div>
                     <div class="skill">Angular.js</div>
                     <div class="skill">Flutter</div>
                     <div class="skill">.NET</div>
                 </div>
-            </div>
+            </section>
 
-            <div class="section">
-                <h2>
-                    <i class="bi bi-hammer"></i>
-                    Programming Languages
+            <!-- Programming Languages Section -->
+            <section class="section languages-section">
+                <h2 class="section-title">
+                    <i class="bi bi-hammer"></i> Programming Languages
                 </h2>
-                <div class="skills-list timeline-item">
+                <div class="skills-list">
                     <div class="skill">Java</div>
                     <div class="skill">Python</div>
                     <div class="skill">C#</div>
                     <div class="skill">Dart</div>
                     <div class="skill">Kotlin</div>
                 </div>
-            </div>
+            </section>
 
-            <div class="section">
-                <h2>
-                    <i class="bi bi-screwdriver"></i>
-                    Other Languages
+            <!-- Other Languages Section -->
+            <section class="section other-languages-section">
+                <h2 class="section-title">
+                    <i class="bi bi-screwdriver"></i> Other Languages
                 </h2>
-                <div class="skills-list timeline-item">
+                <div class="skills-list">
                     <div class="skill">HTML</div>
                     <div class="skill">CSS</div>
                     <div class="skill">Markdown</div>
                 </div>
-            </div>
-        </div>
+            </section>
         </div>
     </main>
 </body>
