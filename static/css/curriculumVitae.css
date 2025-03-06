@@ -1,14 +1,5 @@
 /* MOBILE FIRST BASE STYLES */
 
-/* Disabled on Mobile */
-
-@media (max-width: 767px) {
-    .btn:hover {
-        transform: none;
-    }
-}
-
-/* Enabled Mobile Features */
 body {
     font-family: 'Zain', sans-serif;
     font-size: 1rem;
@@ -53,9 +44,19 @@ body {
 
 /* Timeline Items */
 .timeline-item {
+    background: rgba(0, 0, 0, 0.35); /* Semi-transparent dark background */
+    padding: 1rem;
+    border-radius: 8px;
     margin-bottom: 1.5rem;
 }
+.timeline-item a {
+    color: #fff; /* White color for better legibility */
+    text-decoration: underline; /* Helps indicate it's a link */
+}
 
+.timeline-item a:hover {
+    color: #ddd; /* Lighter gray on hover for feedback */
+}
 .timeline-title {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
@@ -78,21 +79,25 @@ body {
     margin-top: 0.5rem;
 }
 
-/* Skills List */
+/* Skills Section Container */
 .skills-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    justify-content: center;
-    font-size: 1.25rem;
+    background: rgba(0, 0, 0, 0.35); /* Semi-transparent dark background */
+    padding: 1rem;
+    border-radius: 8px;
+    color: #fff; /* Ensure text inside is white */
 }
 
+/* Individual Skill Items */
 .skill {
-    background: #f0f0f0;
+    background: rgba(255, 255, 255, 0.2); /* A lighter overlay for contrast */
     padding: 0.5rem 1rem;
     border-radius: 5px;
-    margin-bottom: 0.5rem;
+    margin: 0.5rem;
+    color: #fff; /* Override inherited color if needed */
 }
+
 
 /* LARGER DEVICES */
 @media (min-width: 768px) {
