@@ -68,7 +68,9 @@ body {
 
 .timeline-row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows items to wrap if there's not enough space */
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
 }
