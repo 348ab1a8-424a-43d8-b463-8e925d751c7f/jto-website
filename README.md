@@ -5,9 +5,7 @@
          width="200"
          style="box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2); border-radius: 12px;">
   </a>
-  <a href="https://jto.dev">
-    <h1>Johnny's Personal Website</h1>
-  </a>
+  <h1>Johnny's Personal Website</h1>
   <p>Built for sharing relevant information about me.</p>
 </div>
 
@@ -84,7 +82,7 @@ No other individual besides myself (Johnny To) will have the ability to contribu
 
 ## Copyright
 
-For complete copyright details, please see the [COPYRIGHT.txt](COPYRIGHT.txt) file.
+For complete copyright details, please see the [COPYRIGHT.md](COPYRIGHT.md) file.
 
 ## Contact
 
