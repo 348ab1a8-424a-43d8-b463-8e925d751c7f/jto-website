@@ -1,5 +1,11 @@
-@import "customBootstrap.css";
+/* Pages */
 @import "homepage.css";
+@import "404.css";
+
+/* Custom Bootstrap */
+@import "customBootstrap.css";
+
+/* Global Styling */
 @import "base.css";
 @import "fonts.css";
 @import "animations.css";

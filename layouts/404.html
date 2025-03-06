@@ -3,18 +3,13 @@
 <head>
     {{ partial "head.html" . }}
 </head>
-
 <body class="fade-in">
-    <header>
-
-    </header>
-
-    <main align="center">
-        <section class="floating-text">
-            <i class="bi bi-exclamation-triangle-fill" style="font-size: 10rem;"></i>
-            <h1 style="font-size: 6rem";>404: PAGE NOT FOUND</h1>
-            <h2 style="font-size: 5rem";>How did you get here?!</h2>
-            <h3 style="font-size: 4rem";>Let's go back <a href="/">home</a>!</h3>
+    <main class="content-container">
+        <section class="error-section">
+            <i class="bi bi-exclamation-triangle-fill error-icon"></i>
+            <h1 class="error-title">404: PAGE NOT FOUND</h1>
+            <h2 class="error-subtitle">How did you get here?!</h2>
+            <h3 class="error-suggestion">Let's go back <a href="/">home</a>!</h3>
         </section>
     </main>
 </body>

@@ -24,12 +24,12 @@
 
 ## Overview
 
-Built for personal use and professionally as a digital business card.
+Developed with a mobile-first design approach as a digital business card & second as a personal website.
 
 ## Features
 
-1. Resume Page - Information about my Work Experience.
-2. Portfolio Page - Showcases my projects.
+1. Curriculum Vitae (CV) Page - Detailed information about my work experience.
+2. Portfolio Page - Showcases my personal projects.
 3. Linkedin Link - Connect with me via Linkedin.
 4. GitHub Link - Check out my GitHub profile.
 5. Quick share QR Code to website.
@@ -67,8 +67,8 @@ hugo server
 ### Linux Environment
 If you are working on a computer using Linux OS, follow instructions below.
 
-- Install an integrated development environment (IDE), I recommend [Visual Studio Code](https://code.visualstudio.com/)
-- Other instructions to come.
+- Install an integrated development environment (IDE), I recommend [Visual Studio Code](https://code.visualstudio.com/).
+- Other instructions to come...
 
 
 ## Usage
