@@ -3,62 +3,36 @@
 <head>
     {{ partial "head.html" . }}
 </head>
-
 <body class="fade-in">
-    <header>
-
-    </header>
-
-    <main align="center">
+    <main class="content-container">
         <section class="floating-text">
-            <h1 style="font-size: 6rem;">Johnny To</h1>
-            <h2 style="font-size: 3rem;">Hi, nice to meet you.</h2>
+            <h1 class="main-title">Johnny To</h1>
+            <h2 class="sub-title">Hi, nice to meet you.</h2>
         </section>
-    
-        <div class="decorative-divider"></div>
-    
-        <section class="middle-section button-container">
-            <!-- Resume Button -->
-            <a href="/curriculum-vitae"
-               class="btn btn-outline text-white"
-               style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: 3rem;">
 
+        <section class="middle-section button-container">
+            <!-- Curriculum-Vitae Button -->
+            <a href="/curriculum-vitae" class="btn btn-outline btn-large">
                 <i class="bi bi-person-vcard-fill"></i> Curriculum Vitae (CV)
             </a>
-    
-            <!-- Portfolio Button [Disabled]-->
-            <a 
-                class="btn btn-outline text-white" 
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: 3rem;"
-                disabled>
-                
+
+            <!-- Portfolio Button [Placeholder for Future Content]-->
+            <span class="btn btn-outline btn-large disabled">
                 <i class="bi bi-folder-fill"></i> Portfolio
-            </a>
-    
+            </span>
+
             <!-- LinkedIn Button -->
-            <a 
-                href="https://www.linkedin.com/in/tojohnny/" 
-                target="_blank" 
-                class="btn btn-outline text-white"
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: 3rem;"
-                >
-                
+            <a href="https://www.linkedin.com/in/tojohnny/" target="_blank" class="btn btn-outline btn-large">
                 <i class="bi bi-linkedin"></i> LinkedIn
             </a>
-      
+
             <!-- GitHub Button -->
-            <a 
-                href="https://github.com/348ab1a8-424a-43d8-b463-8e925d751c7f" 
-                target="_blank" 
-                class="btn btn-outline text-white"
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: 3rem;"
-                >
-                    <i class="bi bi-github"></i> GitHub
+            <a href="https://github.com/348ab1a8-424a-43d8-b463-8e925d751c7f" target="_blank" class="btn btn-outline btn-large">
+                <i class="bi bi-github"></i> GitHub
             </a>
         </section>
 
-        <div align="center">
-            <div class="decorative-divider"></div>
+        <div class="qr-section">
             <h3>Quick share my page!</h3>
             <img src="/qrCodes/qrcode_jto.dev.png" alt="Quick Share Website" height="300">
         </div>

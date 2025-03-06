@@ -4,11 +4,9 @@ body {
     align-items: center; /* Vertical alignment */
     min-height: 100vh; /* Full viewport height */
     margin: 0; /* Remove default margin */
-
     /* Gradient Background */
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-
     /* Text Color */
     color: rgb(255, 255, 255);
     /*-webkit-text-stroke: 1px rgb(167, 167, 167); /* Black border */
@@ -33,28 +31,4 @@ h3 {
 h4 {
     font-family: 'Zain', sans-serif;
     font-weight: 400;
-}
-
-.middle-section {
-    text-align: center; /* Center-align the text */
-    font-size: 1.5rem; /* Slightly smaller than the floating text */
-    font-weight: 400; /* Normal font weight */
-    color: #333; /* Neutral color */
-    margin: 2rem 0; /* Add spacing above and below */
-}
-
-
-.decorative-divider {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 1.5rem 0;
-}
-  
-.decorative-divider::before,
-.decorative-divider::after {
-    content: "";
-    flex: 1;
-    border-top: 2px solid #ffffff; /* Divider color */
-    margin: 0 1rem;
 }
