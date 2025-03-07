@@ -104,7 +104,6 @@ body {
     color: #fff; /* Override inherited color if needed */
 }
 
-
 /* LARGER DEVICES */
 @media (min-width: 768px) {
     .cv-title {
