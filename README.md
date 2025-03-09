@@ -90,24 +90,18 @@ Workaround:
         - Framework Preset: None
         - Build command: echo "Skipping build"
 - Then, go to .../ Build / Branch Control.
-    - Edit to
-        - Production branch: your-branch (whichever branch that contains the public folder)
+    - Make sure
+        - Production branch: main
 
 ### To Deploy the Site
 
-You will have to build the site locally using the command below
+You will have to run the build command to generate static files locally
 ``` powershell
 hugo build
 ```
-- This will build your site and place it into the Public folder.
-- If you don't want the Public folder in your main branch/repository then do the following.
-    - Create a new branch and name it whatever you want, I chose 'Public'.
-    - Then you will push the only the Public folder contents to the 'Public' branch using the following command.
-    - Just make sure your Cloudflare Pages production branch is set accordingly via [Configuration] section.
-``` powershell
-git subtree push --prefix public origin your-branch-with-public-folder
-```
-- Cloudflare will detect the changes in that branch and deploy the site using the contents found in the public folder.
+- These files will be found in the Public folder.
+- Cloudflare by default is set to look for build outputs in Public folder.
+    - If the site doesn't load properly then check this setting under .../ Build / Build Configuration.
 
 ## Usage
 
