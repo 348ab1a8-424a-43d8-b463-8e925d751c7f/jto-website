@@ -1,0 +1,7 @@
+/* Global Styling */
+@import "base.css";
+@import "fonts.css";
+@import "animations.css";
+
+/* Custom Bootstrap */
+@import "customBootstrap.css";

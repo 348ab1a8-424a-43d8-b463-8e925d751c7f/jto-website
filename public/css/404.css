@@ -1,0 +1,50 @@
+/* MOBILE FIRST */
+
+/* General Layout */
+.content-container {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Error Section */
+.error-section {
+    margin-top: 2rem;
+}
+
+/* Mobile Typography & Icon Size */
+.error-icon {
+    font-size: 5rem;
+}
+
+.error-title {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+}
+
+.error-subtitle {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.error-suggestion {
+    font-size: 1.5rem;
+}
+
+/* LARGER DEVICES */
+@media (min-width: 768px) {
+    .error-icon {
+        font-size: 10rem;
+    }
+
+    .error-title {
+        font-size: 6rem;
+    }
+
+    .error-subtitle {
+        font-size: 5rem;
+    }
+
+    .error-suggestion {
+        font-size: 4rem;
+    }
+}
