@@ -17,6 +17,9 @@
 	- [Clone the Project](#clone-the-project)
 	- [Windows Environment](#windows-environment)
 	- [Linux Environment](#linux-environment)
+- [Deployment](#deployment)
+    - [Configuration](#configuration)
+    - [To Deploy the Site](#to-deploy-the-site)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Copyright](#copyright)
@@ -70,6 +73,41 @@ If you are working on a computer using Linux OS, follow instructions below.
 - Install an integrated development environment (IDE), I recommend [Visual Studio Code](https://code.visualstudio.com/).
 - Other instructions to come...
 
+## Deployment
+
+### Configuration
+Hosted on Cloudflare Pages.
+
+Note:
+- Building with Cloudflare Pages is currently disabled and only used to deploy the static site due to the incompatibility reasons below.
+    - Cloudflare Pages defaults to Hugo v0.118.2.
+    - This projects environment uses Hugo v0.145.0.
+    - LotusDocs hugo module requires at least Hugo v0.140.0.
+
+Workaround:
+- Go to Cloudflare / Workers & Pages / Your-Site / Build / Build Configuration.
+    - Edit to
+        - Framework Preset: None
+        - Build command: echo "Skipping build"
+- Then, go to .../ Build / Branch Control.
+    - Edit to
+        - Production branch: your-branch (whichever branch that contains the public folder)
+
+### To Deploy the Site
+
+You will have to build the site locally using the command below
+``` powershell
+hugo build
+```
+- This will build your site and place it into the Public folder.
+- If you don't want the Public folder in your main branch/repository then do the following.
+    - Create a new branch and name it whatever you want, I chose 'Public'.
+    - Then you will push the only the Public folder contents to the 'Public' branch using the following command.
+    - Just make sure your Cloudflare Pages production branch is set accordingly via [Configuration] section.
+``` powershell
+git subtree push --prefix public origin your-branch-with-public-folder
+```
+- Cloudflare will detect the changes in that branch and deploy the site using the contents found in the public folder.
 
 ## Usage
 
