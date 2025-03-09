@@ -9,6 +9,7 @@ resources/
 
 # Editor and IDE files
 .vscode/
+.vs/
 
 # Temporary files
 *.log
