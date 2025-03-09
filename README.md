@@ -35,7 +35,8 @@ Developed with a mobile-first design approach as a digital business card & secon
 2. Portfolio Page - Showcases my personal projects.
 3. Linkedin Link - Connect with me via Linkedin.
 4. GitHub Link - Check out my GitHub profile.
-5. Quick share QR Code to website.
+5. Personal Wiki - Useful references at my finger tips.
+6. Quick share QR Code to website.
 
 ## Installation
 
@@ -89,7 +90,7 @@ Workaround:
     - Edit to
         - Framework Preset: None
         - Build command: echo "Skipping build"
-- Then, go to .../ Build / Branch Control.
+- Then, go to ... / Build / Branch Control.
     - Make sure
         - Production branch: main
 
@@ -101,7 +102,7 @@ hugo build
 ```
 - These files will be found in the Public folder.
 - Cloudflare by default is set to look for build outputs in Public folder.
-    - If the site doesn't load properly then check this setting under .../ Build / Build Configuration.
+    - If the site doesn't load properly then check this setting under ... / Build / Build Configuration.
 
 ## Usage
 
