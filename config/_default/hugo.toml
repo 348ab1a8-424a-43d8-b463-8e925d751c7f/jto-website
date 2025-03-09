@@ -31,3 +31,8 @@ enableEmoji = true
   [markup.goldmark.parser]
     [markup.goldmark.parser.attribute]
       block = true
+
+# Added to fix "WARN  calling IsSet with unsupported type "invalid" (<nil>) will always return false." error.
+# Remove the 2 lines below at a future date.
+[params.social]
+[params.flexsearch]
