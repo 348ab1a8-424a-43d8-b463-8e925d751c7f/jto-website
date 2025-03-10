@@ -9,7 +9,7 @@ draft: false
 toc: true
 ---
 {{< alert context="info" 
-	text="Quick references with definitions & examples." />}}
+	text="C# Language Quick References with definitions & examples." />}}
 
 ## Comments
 

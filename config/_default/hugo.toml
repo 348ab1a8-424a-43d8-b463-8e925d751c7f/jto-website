@@ -42,3 +42,6 @@ enableEmoji = true
 [params.docs]
   title = "Personal Wiki"
   darkMode = true
+
+[params.flexsearch]
+  enabled = true
