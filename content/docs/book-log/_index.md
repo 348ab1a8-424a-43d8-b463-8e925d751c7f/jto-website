@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 1
 title: "Book Log"
 description: "See what I am reading now and past books I've finished."
 icon: "article"
