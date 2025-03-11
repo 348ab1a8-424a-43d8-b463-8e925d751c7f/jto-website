@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book Log on Johnny To</title>
+    <link>http://localhost:1313/docs/book-log/</link>
+    <description>Recent content in Book Log on Johnny To</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/book-log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atomic Habits by James Clear</title>
+      <link>http://localhost:1313/docs/book-log/atomichabits/</link>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/book-log/atomichabits/</guid>
+      <description>&lt;p&gt;Started: 2025-03-11&lt;br /&gt;&#xA;Status: In-Progress (11/253 pages)&lt;br /&gt;&#xA;Last Update: 2025-03-11 &lt;br /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;favorite-quotes&#34;&gt;Favorite Quotes &lt;a href=&#34;#favorite-quotes&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;</description>
+    </item>
+  </channel>
+</rss>
