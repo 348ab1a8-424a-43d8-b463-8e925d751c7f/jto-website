@@ -4,13 +4,13 @@ title: "Atomic Habits by James Clear"
 description: ""
 icon: "article"
 date: "2025-03-11"
-lastmod: "2025-03-14"
+lastmod: "2025-03-15"
 draft: false
 toc: true
 ---
 Started: 2025-03-11<br />
-Status: In-Progress (41/253 pages)<br />
-Last Update: 2025-03-14 <br />
+Status: In-Progress (55/253 pages)<br />
+Last Update: 2025-03-15 <br />
 
 ## Favorite Excerpts
 
