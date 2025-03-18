@@ -9,7 +9,7 @@ draft: false
 toc: true
 ---
 Started: 2025-03-11<br />
-Status: In-Progress (67/253 pages)<br />
+Status: In-Progress (79/253 pages)<br />
 Last Update: 2025-03-18 <br />
 
 ## Favorite Excerpts / Quotes
@@ -35,3 +35,7 @@ or a sense of personal satisfaction.* (Pg. 48)
 
 ### 5
 > *The human brain is a prediction machine. It is continuously taking in your surroundings and analyzing the information it comes across.* (Pg. 60)
+
+### 6
+> *Habit stacking is a special form of an implementation intention. Rather than pairing your new habit with a particular time and location,
+your pair it with a current habit.* (Pg. 74)
