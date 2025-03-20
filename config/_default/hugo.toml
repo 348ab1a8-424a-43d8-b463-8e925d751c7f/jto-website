@@ -40,8 +40,9 @@ enableEmoji = true
   copyright = "2025 Copyright \u00A9 Johnny To"
 
 [params.docs]
-  title = "Personal Wiki"
+  title = "Digital Garden"
   darkMode = true
 
 [params.flexsearch]
   enabled = true
+  tokenize = "strict"
