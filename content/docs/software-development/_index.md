@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 3
 title: "Software Development"
 description: "Notes on languages, software, configurations, etc."
 icon: "article"

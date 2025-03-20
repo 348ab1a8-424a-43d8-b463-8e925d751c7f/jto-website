@@ -1,7 +1,7 @@
 ---
-weight: 1
+weight: 2
 title: "Book Log"
-description: "See what I am reading now and past books I've finished."
+description: "My reading list, what I'm into now and what've finished."
 icon: "article"
 date: "2025-03-11"
 lastmod: "2025-03-11"
