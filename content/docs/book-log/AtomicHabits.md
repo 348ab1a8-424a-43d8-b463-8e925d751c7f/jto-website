@@ -4,13 +4,13 @@ title: "Atomic Habits by James Clear"
 description: ""
 icon: "article"
 date: "2025-03-11"
-lastmod: "2025-03-18"
+lastmod: "2025-03-19"
 draft: false
 toc: true
 ---
 Started: 2025-03-11<br />
-Status: In-Progress (79/253 pages)<br />
-Last Update: 2025-03-18 <br />
+Status: In-Progress (101/253 pages)<br />
+Last Update: 2025-03-19 <br />
 
 ## Favorite Excerpts / Quotes
 
@@ -39,3 +39,12 @@ or a sense of personal satisfaction.* (Pg. 48)
 ### 6
 > *Habit stacking is a special form of an implementation intention. Rather than pairing your new habit with a particular time and location,
 your pair it with a current habit.* (Pg. 74)
+
+### 7
+> *Environment design allows you to take back control and become the architect of your life. Be the designer of your world and not merely the consumer of it.* (Pg. 87)
+
+### 8
+> *If you want behaviors that are stable and predictable, you need an environment that is stable and predictable* (Pg. 90)
+
+### 9
+> *This is the secret to self control. Make the cues of your good habits obvious and the cues of your bad habits invisible.* (Pg. 95)
