@@ -35,7 +35,7 @@ Developed with a mobile-first design approach as a digital business card & secon
 2. Portfolio Page - Showcases my personal projects.
 3. Linkedin Link - Connect with me via Linkedin.
 4. GitHub Link - Check out my GitHub profile.
-5. Personal Wiki - Useful references at my finger tips.
+5. Personal Wiki - Documentation, Logs, Blog, etc.
 6. Quick share QR Code to website.
 
 ## Installation
