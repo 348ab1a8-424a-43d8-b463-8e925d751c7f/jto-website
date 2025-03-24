@@ -4,13 +4,13 @@ author: "Johnny To"
 title: "2025-03-21: My Early Life"
 icon: "article"
 date: "2025-03-21"
-lastmod: "2025-03-23"
+lastmod: "2025-03-24"
 draft: false
 toc: true
 ---
 	Author: Johnny To
 	Publish Date: 2025-03-21
-	Last Modified: 2025-03-23
+	Last Modified: 2025-03-24
 ##
 ***I did things because I had to, not because I wanted to.***
 
@@ -35,3 +35,6 @@ and went each year. The plan was to procrastinate and play videogames all summer
 the summer vacation reading assignment.
 
 ***This was my routine, I had fun, and I loved every second of it.***
+
+Best,<br />
+Johnny
