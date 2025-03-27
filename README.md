@@ -84,7 +84,6 @@ Note:
     - Cloudflare Pages defaults to Hugo v0.118.2.
     - This projects environment uses Hugo v0.145.0.
     - LotusDocs hugo module requires at least Hugo v0.140.0.
-
 Workaround:
 - Go to Cloudflare / Workers & Pages / Your-Site / Build / Build Configuration.
     - Edit to
