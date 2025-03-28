@@ -4,13 +4,13 @@ title: "Atomic Habits by James Clear"
 description: ""
 icon: "article"
 date: "2025-03-11"
-lastmod: "2025-03-21"
+lastmod: "2025-03-28"
 draft: false
 toc: true
 ---
 Started: 2025-03-11<br />
-Status: In-Progress (112/253 pages)<br />
-Last Update: 2025-03-21 <br />
+Status: In-Progress (124/253 pages)<br />
+Last Update: 2025-03-28 <br />
 
 ## Favorite Excerpts / Quotes
 
@@ -48,3 +48,9 @@ your pair it with a current habit.* (Pg. 74)
 
 ### 9
 > *This is the secret to self control. Make the cues of your good habits obvious and the cues of your bad habits invisible.* (Pg. 95)
+
+### 10
+> *One of the most effective things you can do to build better habits is to join a culture where your desired behavior is the normal behavior.* (Pg.117)
+
+### 11
+> *We try to copy the behavior of successful people because we desire sucess ourselves.* (Pg. 121)
