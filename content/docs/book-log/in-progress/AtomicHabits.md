@@ -4,13 +4,13 @@ title: "Atomic Habits by James Clear"
 description: ""
 icon: "article"
 date: "2025-03-11"
-lastmod: "2025-03-28"
+lastmod: "2025-03-30"
 draft: false
 toc: true
 ---
 Started: 2025-03-11<br />
-Status: In-Progress (124/253 pages)<br />
-Last Update: 2025-03-28 <br />
+Status: In-Progress (182/253 pages)<br />
+Last Update: 2025-03-30 <br />
 
 ## Favorite Excerpts / Quotes
 
@@ -54,3 +54,30 @@ your pair it with a current habit.* (Pg. 74)
 
 ### 11
 > *We try to copy the behavior of successful people because we desire sucess ourselves.* (Pg. 121)
+
+### 12
+> *Life feels reactive, but it is actually predictive. All day long, you are making your best guess of how to act given what you've just seen and what has worked for you
+in the past. You are endlessly predicting what will happen in the next moment.* (Pg. 129)
+
+### 13
+> *Now, imagine changing just one word: You don't "have" to. You "get" to. You get to wake up early for work. You get to make another sales call for your business.
+You get to cook dinner for your family. By simply changing one word, you shift the way you view each event. You transition
+from seeing these behaviors as burdens and turn them into opportunities.* (Pg. 131)
+
+### 14
+> *When preparation becomes a form of procrastination, you need to change something. You don't want to merely be planning. You want to be practicing.* (Pg. 143)
+
+### 15
+> *Habits are easier to build when they fit into the flow of your life. You are more likely to go to the gym if it is on your way to work because stopping doesn't
+add much friction into your lifestyle.* (Pg. 153)
+
+### 16
+> *Whenever you organize a space for its intended purpose, you are priming it to make the next action easy.* (Pg. 156)
+
+### 17
+> *The point is to master the habit of showing up. The truth is, a habit must be established before it can be improved. If you can't
+learn the basic skill of showing up, then you have little hope of mastering the finer details.* (Pg. 163-164)
+
+### 18
+> *When you automate as much as your life as possible, you can spend your effort on the tasks machines cannot do yet. Each habit
+we hand over to the authority of technology frees up time and energy to pour into the next stage of growth.* (Pg. 174)
