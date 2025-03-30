@@ -9,7 +9,7 @@ draft: false
 toc: true
 ---
 Started: 2025-03-11<br />
-Status: In-Progress (182/253 pages)<br />
+Status: In-Progress (216/253 pages)<br />
 Last Update: 2025-03-30 <br />
 
 ## Favorite Excerpts / Quotes
@@ -50,7 +50,7 @@ your pair it with a current habit.* (Pg. 74)
 > *This is the secret to self control. Make the cues of your good habits obvious and the cues of your bad habits invisible.* (Pg. 95)
 
 ### 10
-> *One of the most effective things you can do to build better habits is to join a culture where your desired behavior is the normal behavior.* (Pg.117)
+> *One of the most effective things you can do to build better habits is to join a culture where your desired behavior is the normal behavior.* (Pg. 117)
 
 ### 11
 > *We try to copy the behavior of successful people because we desire sucess ourselves.* (Pg. 121)
@@ -81,3 +81,21 @@ learn the basic skill of showing up, then you have little hope of mastering the 
 ### 18
 > *When you automate as much as your life as possible, you can spend your effort on the tasks machines cannot do yet. Each habit
 we hand over to the authority of technology frees up time and energy to pour into the next stage of growth.* (Pg. 174)
+
+### 19
+> *The more a habit becomes part of your life, the less you need outside encouragement to follow through. Incentives can start a habit. Identity sustains a habit.* (Pg. 192)
+
+### 20
+> *Simple bits of reinforcement can offer the immediate pleasure you need to enjoy a habit. And change is easy when it is enjoyable. (Pg. 192-193)
+
+### 21
+> *The problem is not slipping up; the problem is thinking that if you can't do something perfectly, then you shouldn't do it at all.* (Pg. 201)
+
+### 22
+> *But just because you can measure something doesn't mean it's the most important thing. And just because you can't meaasure something doesn't mean
+it's not important at all.* (Pg. 203)
+
+### 23
+> *Knowing that someone is watching can be a powerful motivator. You are less likely to procrastinate or give up because there is an immediate cost.
+If you don't follow through, perhaps they'll see you as untrustworthy or lazy. Suddenly, you are not only failing to uphold your promises to yourself,
+but also failing to uphold your promises to others.* (Pg. 210)
