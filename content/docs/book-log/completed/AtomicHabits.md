@@ -9,7 +9,7 @@ draft: false
 toc: true
 ---
 Started: 2025-03-11<br />
-Status: In-Progress (216/253 pages)<br />
+Status: Completed (253/253 pages)<br />
 Last Update: 2025-03-30 <br />
 
 ## Favorite Excerpts / Quotes
@@ -99,3 +99,6 @@ it's not important at all.* (Pg. 203)
 > *Knowing that someone is watching can be a powerful motivator. You are less likely to procrastinate or give up because there is an immediate cost.
 If you don't follow through, perhaps they'll see you as untrustworthy or lazy. Suddenly, you are not only failing to uphold your promises to yourself,
 but also failing to uphold your promises to others.* (Pg. 210)
+
+### 24
+> *A lack of self-awareness is poison. Reflection and review is the antidote.* (Pg. 249)
