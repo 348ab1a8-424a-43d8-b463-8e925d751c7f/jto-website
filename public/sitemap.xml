@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jto.dev/docs/software-development/csharp/pro-c%23-10-with-.net-6/</loc>
+    <lastmod>2025-04-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jto.dev/docs/book-log/in-progress/grit/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -27,7 +30,7 @@
     <lastmod>2025-03-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jto.dev/docs/software-development/csharp/</loc>
-    <lastmod>2025-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jto.dev/docs/book-log/completed/</loc>
     <lastmod>2025-03-20T00:00:00+00:00</lastmod>
