@@ -16,10 +16,10 @@
 
 <html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
-    <title>Book Log | Digital Garden</title>
+    <title>Pro C# 10 with .NET 6 by Andrew Troelsen | Digital Garden</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="My reading list, what I&#39;m into now and what&#39;ve finished.">
+    <meta name="description" content="Foundational Principles and Practices in Programming">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -32,13 +32,15 @@
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
-<meta property="og:title" content="Book Log" />
-<meta property="og:description" content="My reading list, what I&#39;m into now and what&#39;ve finished." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/docs/book-log/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu_41e311e2b1b10438.png"/><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu_41e311e2b1b10438.png"/>
-<meta name="twitter:title" content="Book Log"/>
-<meta name="twitter:description" content="My reading list, what I&#39;m into now and what&#39;ve finished."/>
+<meta property="og:title" content="Pro C# 10 with .NET 6 by Andrew Troelsen" />
+<meta property="og:description" content="Foundational Principles and Practices in Programming" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/docs/software-development/csharp/pro-c%23-10-with-/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu_228df2ff6d586f1b.png"/><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2025-04-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-04-06T00:00:00+00:00" /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu_228df2ff6d586f1b.png"/>
+<meta name="twitter:title" content="Pro C# 10 with .NET 6 by Andrew Troelsen"/>
+<meta name="twitter:description" content="Foundational Principles and Practices in Programming"/>
 
     
         <link rel="alternate" type="application/atom+xml" title="Atom feed for Johnny To" href="/index.xml" />
@@ -109,11 +111,11 @@
                 
                     
                     
-                        <li class="sidebar-dropdown no-icon current active">
+                        <li class="sidebar-dropdown no-icon ">
                             <button class="btn">
                                 Book Log
                             </button>
-                            <div class="sidebar-submenu d-block">
+                            <div class="sidebar-submenu ">
                                 <ul>
                                     
                                         
@@ -161,25 +163,25 @@
                 
                     
                     
-                        <li class="sidebar-dropdown no-icon ">
+                        <li class="sidebar-dropdown no-icon current active">
                             <button class="btn">
                                 Software Development
                             </button>
-                            <div class="sidebar-submenu ">
+                            <div class="sidebar-submenu d-block">
                                 <ul>
                                     
                                         
                                         
-                                            <li class="sidebar-dropdown nested no-icon ">
+                                            <li class="sidebar-dropdown nested no-icon current active">
                                                 <button class="btn">
                                                     C# Notes
                                                 </button>
-                                                <div class="sidebar-submenu ">
+                                                <div class="sidebar-submenu d-block">
                                                     <ul>
                                                         
                                                             
                                                             
-                                                                <li class=" no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/docs/software-development/csharp/pro-c%23-10-with-/">Pro C# 10 with .NET 6 by Andrew Troelsen</a></li>
+                                                                <li class="current no-icon"><a class="sidebar-nested-link" href="http://localhost:1313/docs/software-development/csharp/pro-c%23-10-with-/">Pro C# 10 with .NET 6 by Andrew Troelsen</a></li>
                                                             
                                                         
                                                     </ul>
@@ -341,10 +343,26 @@
                     <meta itemprop="position" content='1' />
                 </li>
             
+            
+                <li class="breadcrumb-item text-capitalize" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a itemprop="item" href="/docs/software-development/">
+                        <span itemprop="name">Software Development</span>
+                    </a>
+                    <meta itemprop="position" content='2' />
+                </li>
+            
+            
+                <li class="breadcrumb-item text-capitalize" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a itemprop="item" href="/docs/software-development/csharp/">
+                        <span itemprop="name">C# Notes</span>
+                    </a>
+                    <meta itemprop="position" content='3' />
+                </li>
+            
         
             <li class="breadcrumb-item text-capitalize active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <span itemprop="name">Book Log</span>
-                <meta itemprop="position" content='2' />
+                <span itemprop="name">Pro C# 10 with .NET 6 by Andrew Troelsen</span>
+                <meta itemprop="position" content='4' />
             </li>
         
     </ul>
@@ -352,69 +370,466 @@
                                     
                                     <div class="row flex-xl-nowrap">
                                         
-                                        <div class="docs-toc col-xl-3 visually-hidden visually-hidden  d-xl-block"><toc>
+                                        <div class="docs-toc col-xl-3    d-xl-block"><toc>
     <div class="fw-bold text-uppercase mb-2">On this page</div>
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#chapter-1-notes">Chapter 1 Notes</a>
+      <ul>
+        <li><a href="#managed-vs-unmanaged-code">Managed vs Unmanaged code</a></li>
+        <li><a href="#other-net-aware-programming-languages">Other .NET-Aware Programming Languages</a></li>
+        <li><a href="#overview-of-net-assemblies">Overview of .NET Assemblies</a>
+          <ul>
+            <li><a href="#common-intermediate-language-cil">Common Intermediate Language (CIL)</a></li>
+            <li><a href="#cil-to-platform-specific-instructions">CIL to Platform-Specific Instructions</a></li>
+            <li><a href="#net-type-metadata">.NET Type Metadata</a></li>
+            <li><a href="#assembly-manifest">Assembly Manifest</a></li>
+          </ul>
+        </li>
+        <li><a href="#common-type-system-cts">Common Type System (CTS)</a>
+          <ul>
+            <li><a href="#cts-class-type">CTS Class Type</a></li>
+            <li><a href="#cts-interface-type">CTS Interface Type</a></li>
+            <li><a href="#cts-structure-type">CTS Structure Type</a></li>
+            <li><a href="#cts-enumeration-type">CTS Enumeration Type</a></li>
+            <li><a href="#cts-delegate-types">CTS Delegate Types</a></li>
+            <li><a href="#cts-type-members">CTS Type Members</a></li>
+            <li><a href="#intrinsic-cts-data-types">Intrinsic CTS Data Types</a></li>
+          </ul>
+        </li>
+        <li><a href="#common-language-specification-cls">Common Language Specification (CLS)</a></li>
+        <li><a href="#net-runtime">.NET Runtime</a></li>
+        <li><a href="#assembly-vs-namespace-vs-type">Assembly vs Namespace vs Type</a></li>
+        <li><a href="#chapter-1-vocabulary">Chapter 1 Vocabulary</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </toc></div>
                                         
                                         
-                                        <div class="docs-toc-mobile visually-hidden visually-hidden  d-print-none d-xl-none">
+                                        <div class="docs-toc-mobile    d-print-none d-xl-none">
                                             <button id="toc-dropdown-btn" class="btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-offset="0,0" aria-expanded="false">
                                                 Table of Contents
                                             </button>
-<nav id="toc-mobile"></nav></div>
-                                        <div class="docs-content col-12  mt-0">
+<nav id="toc-mobile">
+  <ul class="dropdown-menu">
+    <li><a href="#chapter-1-notes">Chapter 1 Notes</a>
+      <ul>
+        <li><a href="#managed-vs-unmanaged-code">Managed vs Unmanaged code</a></li>
+        <li><a href="#other-net-aware-programming-languages">Other .NET-Aware Programming Languages</a></li>
+        <li><a href="#overview-of-net-assemblies">Overview of .NET Assemblies</a>
+          <ul>
+            <li><a href="#common-intermediate-language-cil">Common Intermediate Language (CIL)</a></li>
+            <li><a href="#cil-to-platform-specific-instructions">CIL to Platform-Specific Instructions</a></li>
+            <li><a href="#net-type-metadata">.NET Type Metadata</a></li>
+            <li><a href="#assembly-manifest">Assembly Manifest</a></li>
+          </ul>
+        </li>
+        <li><a href="#common-type-system-cts">Common Type System (CTS)</a>
+          <ul>
+            <li><a href="#cts-class-type">CTS Class Type</a></li>
+            <li><a href="#cts-interface-type">CTS Interface Type</a></li>
+            <li><a href="#cts-structure-type">CTS Structure Type</a></li>
+            <li><a href="#cts-enumeration-type">CTS Enumeration Type</a></li>
+            <li><a href="#cts-delegate-types">CTS Delegate Types</a></li>
+            <li><a href="#cts-type-members">CTS Type Members</a></li>
+            <li><a href="#intrinsic-cts-data-types">Intrinsic CTS Data Types</a></li>
+          </ul>
+        </li>
+        <li><a href="#common-language-specification-cls">Common Language Specification (CLS)</a></li>
+        <li><a href="#net-runtime">.NET Runtime</a></li>
+        <li><a href="#assembly-vs-namespace-vs-type">Assembly vs Namespace vs Type</a></li>
+        <li><a href="#chapter-1-vocabulary">Chapter 1 Vocabulary</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+                                        <div class="docs-content col-12 col-xl-9 mt-0">
                                             <div class="mb-0 d-flex">
                                                 
                                                 <h1 class="content-title mb-0">
-                                                    Book Log
+                                                    Pro C# 10 with .NET 6 by Andrew Troelsen
                                                     
                                                 </h1>
                                             </div>
                                             
                                             <div id="content" class="main-content" >
                                                 
-    <div class="row flex-xl-wrap">
-        
-        <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
-            <a class="text-decoration-none text-reset" href="http://localhost:1313/docs/book-log/in-progress/">
-                <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
-                    <span class="icon-color d-flex my-3">
-                        <i class="material-icons align-middle">article</i>
-                        
-                        <i class="material-icons icon-faint align-middle ms-auto" title="Directory">folder</i>
-                    </span>
-                    <div class="card-body p-0 content">
-                        <p class="fs-5 fw-semibold card-title mb-1">In Progress</p>
-                        <p class="para card-text mb-0">Currently reading&hellip;</p>
-                    </div>
-                    
-                </div>
-            </a>
-        </div>
-        
-        <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
-            <a class="text-decoration-none text-reset" href="http://localhost:1313/docs/book-log/completed/">
-                <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
-                    <span class="icon-color d-flex my-3">
-                        <i class="material-icons align-middle">article</i>
-                        
-                        <i class="material-icons icon-faint align-middle ms-auto" title="Directory">folder</i>
-                    </span>
-                    <div class="card-body p-0 content">
-                        <p class="fs-5 fw-semibold card-title mb-1">Completed</p>
-                        <p class="para card-text mb-0">Past books I've finished.</p>
-                    </div>
-                    
-                </div>
-            </a>
-        </div>
-        
+    
+    <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
+        <pre><code>Author: Johnny To
+Publish Date: 2025-04-05
+Last Modified: 2025-04-06
+</code></pre>
+<h1 id="chapter-1-notes">Chapter 1 Notes <a href="#chapter-1-notes" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><h2 id="managed-vs-unmanaged-code">Managed vs Unmanaged code <a href="#managed-vs-unmanaged-code" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><ul>
+<li>Managed code - term used to describe the code targeting the .NET runtime.</li>
+<li>Assembly - a binary unit that contains the managed code.</li>
+<li>Unmanaged code - Code that cannot be directly hosted by the .NET runtime.
+<ul>
+<li>Can still be accessed from a C# program, but it locks you into a specific development and deployment target.</li>
+</ul>
+</li>
+</ul>
+<h2 id="other-net-aware-programming-languages">Other .NET-Aware Programming Languages <a href="#other-net-aware-programming-languages" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><ul>
+<li>Visual Basic</li>
+<li>F#</li>
+</ul>
+<h2 id="overview-of-net-assemblies">Overview of .NET Assemblies <a href="#overview-of-net-assemblies" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><ul>
+<li>.NET Binaries take the same file extension as unmanaged Windows binaries <code>(*.dll)</code> while having no internal similarities.
+<ul>
+<li>.NET Binaries contain platform-agnostic Intermediate Language (IL) and type metadata.</li>
+</ul>
+</li>
+<li><code>*.dll</code> files created using a .NET compiler, the binary blob is termed an assembly.
+<ul>
+<li>4 Basic Properties of this file
+<ul>
+<li>.NET Projects are always compiled to a file with a .dll extension even if the project is an executable.
+<ul>
+<li>Even if the project is an executable, can still be executed with the command <code>dotnet &lt;assembly name&gt;.dll</code></li>
+<li>The <code>dotnet.exe</code> is actually copied to the build directory and renamed <code>&lt;assembly name&gt;.exe</code> which will then
+execute <code>dotnet &lt;assembly name&gt;.dll</code>.</li>
+<li>The <code>*.exe</code> is not even the actual project&rsquo;s code, just a convenient shortcut to running your application.</li>
+<li>Even if the application is a single file that is executed directly. It&rsquo;s only a packaging convenience.
+It contains all the files needed to run the application and sometimes the .NET runtime included. However,
+the code is still running in a managed container just as if it were published as multiple files.</li>
+</ul>
+</li>
+<li>Assembly contains CIL (Common Intermediate Language) code.</li>
+<li>Assembly contains metadata that describes in detail the characteristics of every <code>type</code> within the binary.</li>
+<li>Contains a <code>manifest</code> that has information about the current version of the assembly, culture information, and a list of all externally
+referenced assemblies that are required for proper execution.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="common-intermediate-language-cil">Common Intermediate Language (CIL) <a href="#common-intermediate-language-cil" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><ul>
+<li>Sits above any particular platform-specific instruction set.</li>
+<li>C# compiler emits CIL, not platform specific instructions.
+<ul>
+<li>For example, if you have a Calc.cs (Calculator class) that is compiled.
+It would produce a <code>.dll</code> assembly that contains a manifest, CIL instructions and metadata describing each aspect of the Calc and Program classes.</li>
+</ul>
+</li>
+<li>Can output IL (Intermediate Language) of an assembly using <code>ildasm.exe</code>.</li>
+<li>Doesn&rsquo;t matter if C# or Visual Basic or F#. You will find similar instructions when examining the CIL.</li>
+<li>Benefit is that it allows language integration.</li>
+</ul>
+<h3 id="cil-to-platform-specific-instructions">CIL to Platform-Specific Instructions <a href="#cil-to-platform-specific-instructions" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><ul>
+<li>Done by being compiled on the fly by a JIT compiler (also named jitter).</li>
+<li>The .NET runtime environment leverages a JIT compiler for each CPU targeting the runtime, each optimized for the underlying platform.</li>
+<li>A single body of code can be efficiently JIT compiled and executed on machines with different architectures.</li>
+<li>Jitter has a built in cache to avoid recompiling CIL. For example, if a method was compiled and ran once, then was needed to run again.</li>
+<li>Can pre-JIT code using <code>crossgen.exe</code>.</li>
+</ul>
+<h3 id="net-type-metadata">.NET Type Metadata <a href="#net-type-metadata" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><ul>
+<li>Job of the compiler to generate the assembly&rsquo;s metadata.</li>
+<li>Describes every type (e.g. class, structure, enumeration) defined in the binary and the members of each type (e.g. properties, methods, and events).</li>
+<li>IntelliSense feature in Visual Studio is only possible by reading an assembly&rsquo;s metadata at design time.</li>
+<li>Also, it is used by various object-browsing utilities, debugging tools, and the C# compiler itself.</li>
+<li>It is the backbone of numerous .NET technologies including reflection, late beinding and object serialization.</li>
+</ul>
+<h3 id="assembly-manifest">Assembly Manifest <a href="#assembly-manifest" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><ul>
+<li>Metadata that describes the assembly itself.</li>
+<li>Documents all external assemblies required by the current assembly to function correctly.
+<ul>
+<li>The assembly&rsquo;s version number, copyright information, etc.</li>
+</ul>
+</li>
+<li>The job of the compiler to generate the assembly&rsquo;s manifest.</li>
+</ul>
+<h2 id="common-type-system-cts">Common Type System (CTS) <a href="#common-type-system-cts" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><ul>
+<li><code>Type</code> refers to a member of the set {<code>class</code>, <code>interface</code>, <code>structure</code>, <code>enumeration</code>, <code>delegate</code>}.</li>
+<li>Example:
+<ul>
+<li>You have a <code>class</code> that implements a number of <code>interfaces</code> where an interface method takes an <code>enumeration type</code> as a <code>parameter</code> and returns a <code>structure</code>
+to the caller.</li>
+</ul>
+</li>
+<li>However, only individuals who are deeply concerned with the inner workings of the CTS are those building tools and/or compilers that target the .NET platform.</li>
+<li>.NET Programmers need to learn how to work with the five types defined by the CTS in their language of choice.</li>
+</ul>
+<h3 id="cts-class-type">CTS Class Type <a href="#cts-class-type" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><ul>
+<li>Cornerstone of <code>object-oriented programming (OOP)</code>.</li>
+<li>May be composed of an number of members such as
+<ul>
+<li><code>Constructors</code></li>
+<li><code>Properties</code></li>
+<li><code>Methods</code></li>
+<li><code>Events</code></li>
+</ul>
+</li>
+<li>In C#, classes are declared using the <code>class</code> keyword such as</li>
+</ul>
+
+
+    
+    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#75715e">// A C# class type with 1 method.</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Calc</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> Add(<span style="color:#66d9ef">int</span> addend1, <span style="color:#66d9ef">int</span> addend2)
+</span></span><span style="display:flex;"><span>	{
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> addend1 + addend2;
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<ul>
+<li>CTS Class Characteristics
+<ul>
+<li>Is the class <code>sealed</code>?
+<ul>
+<li><code>Sealed classes</code> cannot function as a base class to other classes.</li>
+</ul>
+</li>
+<li>Does the class implement any <code>interfaces</code>?
+<ul>
+<li>An <code>interface</code> is a collection of abstract members that provides a contract between the object and object user.</li>
+<li>CTS allows a class to implement any number of interfaces.</li>
+</ul>
+</li>
+<li>Is the class <code>abstract</code> or <code>concrete</code>?
+<ul>
+<li><code>Abstract classes</code> cannot be directly instantiated but are intended to define common behaviors for derived types.</li>
+<li><code>Concrete classes</code> can be instantiated directly.</li>
+</ul>
+</li>
+<li>What is the <code>visibility</code> of this class?
+<ul>
+<li>Must be configured with a <code>visibility</code> keyword such as <code>public</code> or <code>internal</code>.</li>
+<li>Controls whether the class may be used by external assemblies or only from within the defining assembly.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="cts-interface-type">CTS Interface Type <a href="#cts-interface-type" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><ul>
+<li>A named collection of abstract member definitions and/or default implementations which are implemented by a given class or structure.</li>
+<li>Defined using the <code>interface</code> keyword.</li>
+<li>By convention, all .NET interfaces begin with the capital letter <code>I</code> such as</li>
+</ul>
+
+
+    
+    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#75715e">// Usually decalred as public to allow types in other assemblies to implement their behavior.</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">IDraw</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">void</span> Draw();
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<ul>
+<li>On their own, interfaces have little use.</li>
+<li>When a class or structureimplements a given interface in its unique way, you are able to request access to the supplied functionality</li>
+<li>using an interface reference in a polymorphic manner.</li>
+</ul>
+<h3 id="cts-structure-type">CTS Structure Type <a href="#cts-structure-type" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><ul>
+<li>A lightweight class type having value-based semantics.</li>
+<li>Structures are best suited for modeling geometric and mathematical data.</li>
+<li>Created using the <code>struct</code> keyword such as</li>
+</ul>
+
+
+    
+    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#75715e">// A C# structure type.</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">Point</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// Structures can contain fields.</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> xPos, yPos;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// Structures can contain parameterized constructors.</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> Point (<span style="color:#66d9ef">int</span> x, <span style="color:#66d9ef">int</span> y)
+</span></span><span style="display:flex;"><span>	{ xPos = x; yPos = y;}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// Strutures may define methods.</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> PrintPosition()
+</span></span><span style="display:flex;"><span>	{
+</span></span><span style="display:flex;"><span>		Console.WriteLine(<span style="color:#e6db74">&#34;({0}, {1})&#34;</span>, xPos, yPos);
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h3 id="cts-enumeration-type">CTS Enumeration Type <a href="#cts-enumeration-type" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><ul>
+<li>Allows you to group name-value pairs.</li>
+<li>Example, if you were creating a video game application that allows the player to select from three character categories (Wizard, Fighter, or Thief).</li>
+<li>Rather than using numerical values to represent each possibility, you could build a strongly typed enumeration using the <code>enum</code> keyword.</li>
+</ul>
+
+
+    
+    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#66d9ef">enum</span> CharacterTypeEnum
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>	Wizard = <span style="color:#ae81ff">100</span>,
+</span></span><span style="display:flex;"><span>	Fighter = <span style="color:#ae81ff">200</span>,
+</span></span><span style="display:flex;"><span>	Thief = <span style="color:#ae81ff">300</span>
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<ul>
+<li>By default, the storage used to hold each item is a 32-bit integer. Can be altered if needed.</li>
+</ul>
+<h3 id="cts-delegate-types">CTS Delegate Types <a href="#cts-delegate-types" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><ul>
+<li>.NET equivalent of a type-safe, C-style function pointer.</li>
+<li>.NET delegate is a class that derives from <code>System.MulticastDelegate</code>, rather than a simple pointer to a raw memory address.</li>
+<li>Declared using the <code>delegate</code> keyword.</li>
+</ul>
+
+
+    
+    <pre tabindex="0"><code class="language-chsarp" data-lang="chsarp">//This C# delegate type can &#34;point to&#34; any method returning an int and taking two ints as input.
+delegate int BinaryOp(int x, int y);</code></pre>
+<ul>
+<li>Critical when you want to provide a way for one object to forward a call to another object and provide the foundation for the .NET event architecture.</li>
+</ul>
+<h3 id="cts-type-members">CTS Type Members <a href="#cts-type-members" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><ul>
+<li>Most <code>types</code> take any number of <code>members</code>.</li>
+<li>A type member is constrained the the set
+{<code>constructor</code>, <code>finalizer</code>, <code>static constructor</code>, <code>nested type</code>, <code>operator</code>,
+<code>method</code>, <code>property</code>, <code>indexer</code>, <code>field</code>, <code>readonly-field</code>, <code>constant</code>, <code>event</code>}</li>
+<li>CTS defines <code>adornments</code> that may be associated with a given member such as
+<ul>
+<li>Given a <code>Visibility trait</code> - public, private, protected.</li>
+<li>Declared as <code>abstract</code> or <code>virtual</code>
+<ul>
+<li><code>abstract</code> - to enforce a polymorphic behavior on derived types.</li>
+<li><code>virtual</code> - to define a canned, but overridable, implementation.</li>
+</ul>
+</li>
+<li>Configured as <code>static</code> or <code>instance</code>.
+<ul>
+<li><code>static</code> - bound at the class level.</li>
+<li><code>instance</code> - bound at the object level.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="intrinsic-cts-data-types">Intrinsic CTS Data Types <a href="#intrinsic-cts-data-types" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h3><ul>
+<li>Well-defined set of fundamental data types.</li>
+<li>All .NET language keywords resolve to the same CTS type defined in an assembly named <code>mscorlib.dll</code>.</li>
+</ul>
+
+
+    
+    <pre tabindex="0"><code class="language-chsarp" data-lang="chsarp">CTS Data Type			C# Keyword
+------------------------------------------
+System.Byte				byte
+System.SByte			sbyte
+System.Int16			short
+System.Int32			int
+System.Int64			long
+System.UInt16			ushort
+System.UInt32			uint
+System.UInt64			ulong
+System.Single			float
+System.Double			double
+System.Object			object
+System.Char				char
+System.String			string
+System.Decimal			decimal
+System.Boolean			bool</code></pre>
+<ul>
+<li>Unique keywords of a managed language are simply shorthand notations for a real type in the <code>System</code> namespace.</li>
+<li>For example the following code snippet defines a 32-bit numerical variable in C#.</li>
+</ul>
+
+
+    
+    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#75715e">// Define some &#34;ints&#34; in C#.</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> i = <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>System.Int32 j = <span style="color:#ae81ff">0</span>;</span></span></code></pre></div>
+<h2 id="common-language-specification-cls">Common Language Specification (CLS) <a href="#common-language-specification-cls" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><ul>
+<li>The CLS is a set of rules that describe in vivid detail the minimal and complet eset of features of a given .NET compiler must support to produce code that can be hosted by the
+.NET Runtime, while at the same time be accessed in a uniform manner by all languages that target the .NET platform.</li>
+<li>CLS can be viewed as a subset of the full functionality defined by the CTS.</li>
+<li>The CLS is ultimately a set of rules that compiler builders must conform to if they intend their products to function seamlessly within the .NET universe.</li>
+<li>Each rule is defined a simple name (e.g. CLS Rule 6) and describes how this rule affects those who build compilers as well as those who interact with them.</li>
+<li>C# does define a number of programming constructs that are not CLS compliant.
+<ul>
+<li>You can instruct the C# compiler to check your code for CLS compliance using a single .NET attribute.</li>
+</ul>
+</li>
+</ul>
+
+
+    
+    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#75715e">// Tell the C# compiler to check for CLS compliance.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">[assembly: CLSCompliant(true)]</span></span></span></code></pre></div>
+<ul>
+<li>This instructs the C# compiler to check every line of code against the rules of the CLS. If violations are discovered, you receive a compiler warning and a description of the offending code.</li>
+</ul>
+<h2 id="net-runtime">.NET Runtime <a href="#net-runtime" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><ul>
+<li>A collection of services that are required to execute a given compiled unit of code.</li>
+<li>.NET runtime provides a single, well-defined runtime layer that is shared by all languages and platforms that are .NET.</li>
+</ul>
+<h2 id="assembly-vs-namespace-vs-type">Assembly vs Namespace vs Type <a href="#assembly-vs-namespace-vs-type" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><ul>
+<li>
+<p>Framework libraries is to give developers a well-defined set of existing code to leverage in their applications.</p>
+</li>
+<li>
+<p>.NET Libraries are language-neutral.</p>
+</li>
+<li>
+<p>Namespace keeps all the types within the base class libraries well organized.</p>
+</li>
+<li>
+<p>A namespace is a grouping of semantically related types in an assembly or possibly spread across multiple related assemblies.</p>
+</li>
+<li>
+<p>A single assembly can contain any number of namespaces, each of which can contain any number of types.</p>
+</li>
+<li>
+<p>Any language targeting the .NET runtime uses the same namespaces and the same types.</p>
+</li>
+<li></li>
+<li>
+<p>A convenient way to logically understand and organize related types.</p>
+</li>
+<li>
+<p>For example:</p>
+<ul>
+<li><code>System</code> namespace
+<ul>
+<li><code>System.Console</code> from our perspective represents a class named <code>Console</code> that is contained within a namespace called System.</li>
+<li>However, .NET runtime only sees it as a single class named <code>System.Console</code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>The <code>using</code> keyword simplifies the process of referencing types defined in a particular namespace.</p>
+</li>
+</ul>
+
+
+    
+    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> System;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// The above statement enables the line of code below.</span>
+</span></span><span style="display:flex;"><span>Console.WriteLine(<span style="color:#e6db74">&#34;10 + 84 is {0}&#34;</span>, answer<span style="color:#e6db74">&#34;);
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Otherwise, the code would have been written as.</span>
+</span></span><span style="display:flex;"><span>System.Console.WriteLine(<span style="color:#e6db74">&#34;10 + 84 is {0}&#34;</span>, answer<span style="color:#e6db74">&#34;);
+</span></span></span></code></pre></div>
+<h2 id="chapter-1-vocabulary">Chapter 1 Vocabulary <a href="#chapter-1-vocabulary" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><ul>
+<li></li>
+</ul>
+
     </div>
 
+    
+
+    
                                             </div>
                                             <div><hr class="doc-hr">
 <div id="doc-nav" class="d-print-none">
+
+	<div class="row flex-xl-nowrap flex-row-reverse">
+	<div class="col-sm-6 pt-2 doc-prev">
+		<a class="ms-auto" href="/docs/book-log/in-progress/grit/">
+			<div class="card h-100 my-1 text-end">
+				<div class="card-body py-2">
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">GRIT by Angela Duckworth <i class="material-icons align-middle">navigate_next</i></p>
+					
+				</div>
+			</div>
+		</a>
+        </div>
+	</div>
 </div></div>
                                         </div>
                                     </div>

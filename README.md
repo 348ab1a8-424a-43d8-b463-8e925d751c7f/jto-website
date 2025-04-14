@@ -72,8 +72,18 @@ hugo server
 If you are working on a computer using Linux OS, follow instructions below.
 
 - Install an integrated development environment (IDE), I recommend [Visual Studio Code](https://code.visualstudio.com/).
-- Other instructions to come...
 
+- Arch Linux - Install Hugo via
+
+```
+sudo pacman -S hugo
+```
+- Start the server using
+
+```
+hugo server
+```
+- Access the website via web browser @ [http://localhost:1313/](http://localhost:1313/).
 ## Deployment
 
 ### Configuration
