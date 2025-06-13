@@ -47,7 +47,7 @@ enableEmoji = true
   titleIcon = true
   toc = true
   tocMobile = true
-
+  intLinkTooltip = true
 
 [params.flexsearch]
   enabled = true

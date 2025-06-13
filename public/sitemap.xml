@@ -30,11 +30,15 @@
   </url><url>
     <loc>http://localhost:1313/docs/book-log/in-progress/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/bookmarks/massgrave/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/book-log/</loc>
     <lastmod>2025-03-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/book-log/completed/</loc>
     <lastmod>2025-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/bookmarks/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/blog/2025/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
