@@ -5,8 +5,8 @@ body {
     min-height: 100vh; /* Full viewport height */
     margin: 0; /* Remove default margin */
     /* Gradient Background */
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-color: rgb(2,0,36);
+    background-image: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(0,42,108,1) 35%, rgba(2,0,36,1) 100%);
     /* Text Color */
     color: rgb(255, 255, 255);
     /*-webkit-text-stroke: 1px rgb(167, 167, 167); /* Black border */
