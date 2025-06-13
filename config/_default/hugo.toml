@@ -40,8 +40,14 @@ enableEmoji = true
   copyright = "2025 Copyright \u00A9 Johnny To"
 
 [params.docs]
-  title = "Digital Garden"
-  darkMode = true
+  title = "Personal Wiki"
+  darkMode = false
+  descriptions = true
+  sidebarIcons = true
+  titleIcon = true
+  toc = true
+  tocMobile = true
+
 
 [params.flexsearch]
   enabled = true

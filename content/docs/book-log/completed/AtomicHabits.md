@@ -2,7 +2,7 @@
 weight: 1
 title: "Atomic Habits by James Clear"
 description: ""
-icon: "article"
+icon: "book"
 date: "2025-03-11"
 lastmod: "2025-03-30"
 draft: false

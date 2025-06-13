@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Johnny To</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Johnny To</description>
+    <title>2025 on Johnny To</title>
+    <link>http://localhost:1313/docs/blog/2025/</link>
+    <description>Recent content in 2025 on Johnny To</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/docs/blog/2025/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025-06-12: 2 Major Life Events</title>
       <link>http://localhost:1313/docs/blog/2025/2025-06-12-2-major-life-events/</link>
@@ -42,20 +42,6 @@
       <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/blog/2025/2025-03-20-re-start/</guid>
       <description>&lt;pre&gt;&lt;code&gt;Author: Johnny To&#xA;Publish Date: 2025-03-20&#xA;Last Modified: 2025-03-23&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;&#34;&gt; &lt;a href=&#34;#&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;How many times have I started a blog and ended it?&lt;/strong&gt;&lt;/em&gt; &lt;br /&gt;&#xA;&lt;em&gt;&lt;strong&gt;How many times have I started a blog and then stopped updating it?&lt;/strong&gt;&lt;/em&gt; &lt;br /&gt;&#xA;&lt;em&gt;&lt;strong&gt;How many times have I thought about restarting a blog?&lt;/strong&gt;&lt;/em&gt; &lt;br /&gt;&#xA;&lt;em&gt;&lt;strong&gt;When was the first time I created a blog?&lt;/strong&gt;&lt;/em&gt; &lt;br /&gt;&lt;/p&gt;&#xA;&lt;p&gt;I created my first blog when I was forced to in University. During that time, many aspiring Software Engineers, developers,&#xA;or whoever else that was into Computer Science and the like was following a trend. If you start a blog, you will become successful!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Atomic Habits by James Clear</title>
-      <link>http://localhost:1313/docs/book-log/completed/atomichabits/</link>
-      <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/book-log/completed/atomichabits/</guid>
-      <description>&lt;p&gt;Started: 2025-03-11&lt;br /&gt;&#xA;Status: Completed (253/253 pages)&lt;br /&gt;&#xA;Last Update: 2025-03-30 &lt;br /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;favorite-excerpts--quotes&#34;&gt;Favorite Excerpts / Quotes &lt;a href=&#34;#favorite-excerpts--quotes&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3 id=&#34;1&#34;&gt;1 &lt;a href=&#34;#1&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Goal setting suffers from a serious case of survivorship bias.&#xA;We concentrate on the people who ended up winning&amp;ndash;the survivors&amp;ndash;and mistakenly assume that ambitious goals led to their success while&#xA;overlooking all of the people who had the same objective but didn&amp;rsquo;t succeed.&lt;/em&gt; (Pg. 24-25)&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;2&#34;&gt;2 &lt;a href=&#34;#2&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Furthermore, goals create an &amp;ldquo;either-or&amp;rdquo; conflict: either you achieve your goal and are successful or you fail and you&#xA;are a disappointment. You mentally box yourself into a narrow version of happiness. This is misguided.&lt;/em&gt; (Pg. 26)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>GRIT by Angela Duckworth</title>
-      <link>http://localhost:1313/docs/book-log/in-progress/grit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/book-log/in-progress/grit/</guid>
-      <description>&lt;p&gt;Started: 2025-04-01&lt;br /&gt;&#xA;Status: Completed (14/277 pages)&lt;br /&gt;&#xA;Last Update: 2025-04-02 &lt;br /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;favorite-excerpts--quotes&#34;&gt;Favorite Excerpts / Quotes &lt;a href=&#34;#favorite-excerpts--quotes&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3 id=&#34;1&#34;&gt;1 &lt;a href=&#34;#1&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;</description>
     </item>
   </channel>
 </rss>
