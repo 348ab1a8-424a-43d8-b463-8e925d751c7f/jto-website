@@ -11,9 +11,6 @@
     <loc>http://localhost:1313/docs/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/book-log/in-progress/grit/</loc>
-    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/docs/blog/2025/2025-03-24-progress-report-1/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -26,17 +23,18 @@
     <loc>http://localhost:1313/docs/blog/2025/2025-03-20-re-start/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/book-log/in-progress/</loc>
-    <lastmod>2025-03-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/docs/book-log/completed/atomichabits/</loc>
     <lastmod>2025-03-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/docs/book-log/in-progress/grit/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/book-log/in-progress/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/book-log/</loc>
-    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/book-log/completed/</loc>
-    <lastmod>2025-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/blog/2025/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
