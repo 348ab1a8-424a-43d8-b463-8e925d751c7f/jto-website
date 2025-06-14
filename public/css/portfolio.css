@@ -1,0 +1,79 @@
+/* MOBILE-FIRST DEFAULT */
+
+.portfolio-section {
+  padding: 1rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Scrolling Container */
+.portfolio-scroller {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  /* Optional: hide scrollbar */
+  scrollbar-width: none; /* Firefox */
+}
+.portfolio-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+/* Direction helpers */
+.direction-ltr {
+  flex-direction: row;
+}
+.direction-rtl {
+  flex-direction: row-reverse;
+}
+
+/* Individual Cards */
+.project-card {
+  flex: 0 0 80%;          /* mobile: cards take 80% of viewport width */
+  scroll-snap-align: start;
+  background: #fff;
+  color: #333;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-card h3 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.project-card p {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-card a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+/* LARGER SCREENS */
+@media (min-width: 768px) {
+  .project-card {
+    flex: 0 0 300px;      /* fixed card width on desktop */
+  }
+  .section-title {
+    font-size: 2.5rem;
+  }
+}

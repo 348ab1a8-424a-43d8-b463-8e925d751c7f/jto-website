@@ -5,7 +5,7 @@ contentDir = 'content'
 enableEmoji = true
 
 [params]
-  subtitle = 'Dive into my space'
+  subtitle = 'Gathering my thoughts'
 
 [outputFormats.Resume]
   mediaType = "text/html"
@@ -41,7 +41,7 @@ enableEmoji = true
 
 [params.docs]
   title = "Personal Wiki"
-  darkMode = false
+  darkMode = true
   descriptions = true
   sidebarIcons = true
   titleIcon = true
