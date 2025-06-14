@@ -1,7 +1,7 @@
 ---
-weight: 1
+weight: 2
 author: "Johnny To"
-title: "2025-03-21: My Early Life"
+title: "[03/21] My Early Life"
 icon: "article"
 date: "2025-03-21"
 lastmod: "2025-03-24"

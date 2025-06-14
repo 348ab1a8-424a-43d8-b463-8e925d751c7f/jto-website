@@ -1,7 +1,7 @@
 ---
 weight: 1
 author: "Johnny To"
-title: "2025-03-20: RE-start"
+title: "[03/20]: RE-start"
 icon: "article"
 date: "2025-03-20"
 lastmod: "2025-03-23"

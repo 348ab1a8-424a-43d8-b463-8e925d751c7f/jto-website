@@ -1,7 +1,7 @@
 ---
 weight: 1
 author: "Johnny To"
-title: "2025-06-12: 2 Major Life Events"
+title: "[06/12] 2 Major Life Events"
 icon: "article"
 date: "2025-06-12"
 lastmod: "2025-06-12"

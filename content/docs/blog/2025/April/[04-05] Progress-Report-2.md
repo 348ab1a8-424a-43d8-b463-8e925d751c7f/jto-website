@@ -1,7 +1,7 @@
 ---
 weight: 1
 author: "Johnny To"
-title: "2025-04-05: Progress Report #2"
+title: "[04/05] Progress Report #2"
 icon: "article"
 date: "2025-03-24"
 lastmod: "2025-04-05"
