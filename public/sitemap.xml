@@ -2,65 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jto.dev/docs/blog/2025/june/06-12-2-major-life-events/</loc>
+    <loc>http://localhost:1313/docs/blog/2025/june/06-12-2-major-life-events/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jto.dev/docs/blog/</loc>
+    <loc>http://localhost:1313/docs/blog/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jto.dev/docs/</loc>
+    <loc>http://localhost:1313/docs/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jto.dev/docs/blog/2025/april/04-05-progress-report-2/</loc>
+    <loc>http://localhost:1313/docs/blog/2025/april/04-05-progress-report-2/</loc>
     <lastmod>2025-04-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jto.dev/docs/blog/2025/march/03-20-re-start/</loc>
+    <loc>http://localhost:1313/docs/blog/2025/march/03-20-re-start/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jto.dev/docs/book-log/completed/atomichabits/</loc>
+    <loc>http://localhost:1313/docs/book-log/completed/atomichabits/</loc>
     <lastmod>2025-03-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jto.dev/docs/project-docs/07cab3d6-0d7d/</loc>
+    <loc>http://localhost:1313/docs/project-docs/07cab3d6-0d7d/</loc>
   </url><url>
-    <loc>https://jto.dev/docs/book-log/in-progress/grit/</loc>
+    <loc>http://localhost:1313/docs/book-log/in-progress/grit/</loc>
   </url><url>
-    <loc>https://jto.dev/docs/book-log/in-progress/</loc>
+    <loc>http://localhost:1313/docs/book-log/in-progress/</loc>
   </url><url>
-    <loc>https://jto.dev/docs/bookmarks/massgrave/</loc>
+    <loc>http://localhost:1313/docs/bookmarks/massgrave/</loc>
   </url><url>
-    <loc>https://jto.dev/docs/blog/2025/march/03-21-my-early-life/</loc>
+    <loc>http://localhost:1313/docs/blog/2025/march/03-21-my-early-life/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jto.dev/docs/book-log/completed/</loc>
+    <loc>http://localhost:1313/docs/book-log/completed/</loc>
     <lastmod>2025-03-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jto.dev/docs/project-docs/</loc>
+    <loc>http://localhost:1313/docs/project-docs/</loc>
   </url><url>
-    <loc>https://jto.dev/docs/blog/2025/march/03-24-progress-report-1/</loc>
+    <loc>http://localhost:1313/docs/blog/2025/march/03-24-progress-report-1/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jto.dev/docs/blog/2025/march/</loc>
+    <loc>http://localhost:1313/docs/blog/2025/march/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jto.dev/docs/book-log/</loc>
+    <loc>http://localhost:1313/docs/book-log/</loc>
     <lastmod>2025-03-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jto.dev/docs/blog/2025/april/</loc>
+    <loc>http://localhost:1313/docs/blog/2025/april/</loc>
     <lastmod>2025-04-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jto.dev/docs/bookmarks/</loc>
+    <loc>http://localhost:1313/docs/bookmarks/</loc>
   </url><url>
-    <loc>https://jto.dev/docs/blog/2025/june/</loc>
+    <loc>http://localhost:1313/docs/blog/2025/june/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jto.dev/docs/blog/2025/</loc>
+    <loc>http://localhost:1313/docs/blog/2025/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jto.dev/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jto.dev/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://jto.dev/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
